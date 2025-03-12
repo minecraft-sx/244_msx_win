@@ -15,7 +15,7 @@ autoResume = true
 gpsTimeout = 3
 preciseTotals = false
 logExtension = ""
-rowCheck = true
+rowCheck = false
 startDown = 0
 rednetEnabled = false
 selectedSlot = 1
@@ -28,7 +28,7 @@ exclusions = {
 flatBedrock = false
 layers = 34
 logging = true
-percent = 1
+percent = 5
 allowedItems = {
   0,
   0,
@@ -60,7 +60,7 @@ eventInsertionPoint = 1
 quadEnabled = false
 maxTries = 200
 dumpSlots = {
-  true,
+  false,
   false,
   false,
   false,
@@ -79,14 +79,14 @@ dumpSlots = {
 }
 gotoDest = ""
 lavaBuffer = 500
-zPos = 1
-yPos = 2
+zPos = 6
+yPos = 5
 fuelChest = false
 oreQuarryBlacklistName = "oreQuarryBlacklist.txt"
 totals = {
   other = 0,
-  fuel = 2,
-  cobble = 960,
+  fuel = 0,
+  cobble = 0,
 }
 lavaBucket = false
 numResumed = 0
@@ -95,73 +95,20 @@ y = 100
 x = 10
 numDropOffs = 0
 z = 10
-originalFuel = 5121
-mined = 4
-relzPos = 1
+originalFuel = 6287
+mined = 207
+relzPos = 5
 fuelMultiplier = 1
 quadTimeout = 300
 connected = false
-slot = {
-  {
-    3,
-    0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-  {
-    [ 2 ] = 0,
-  },
-}
 extraDropItems = false
 startY = 0
 careAboutResources = true
 goLeftNotRight = false
 startupRename = "oldStartup.quarry"
-originalDay = 12
-diff = 64
+originalDay = 13
 uniqueExtras = 8
-isMiningTurtle = true
-relxPos = 3
+relxPos = 7
 initialTypes = {
   1,
 }
@@ -178,16 +125,16 @@ fuelTable = {
   loose = 0,
 }
 doBackup = true
-moved = 5
+moved = 147
 doCheckFuel = true
 chestFull = false
 saveFile = "Civil_Quarry_Restore"
 inverted = false
 frontChest = false
 fuelLevel = 0
-xPos = 3
+xPos = 7
 dumpCompareItems = true
-layersDone = 1
+layersDone = 2
 oldOreQuarry = false
 doCheckFuel = false
-fuelLevel = 6393
+fuelLevel = 6297

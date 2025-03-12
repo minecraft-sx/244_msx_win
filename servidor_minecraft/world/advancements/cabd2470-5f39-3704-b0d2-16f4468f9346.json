@@ -2408,6 +2408,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
+    },
+    "done": true
+  },
   "ad_astra:recipes/misc/iron_plateblock": {
     "criteria": {
       "has_iron_plateblock": "2025-03-12 05:33:42 +0000"
@@ -2417,6 +2423,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
     },
     "done": true
   },
@@ -2633,6 +2645,12 @@
   "travelersbackpack:recipes/decorations/gray_sleeping_bag": {
     "criteria": {
       "has_gray_wool": "2025-03-12 05:15:20 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/lapis": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
     },
     "done": true
   },
