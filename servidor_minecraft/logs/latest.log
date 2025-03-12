@@ -367,3 +367,27 @@
 [04:03:04] [Server thread/INFO]: M4Z0 has made the advancement [Take Aim]
 [04:06:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
 [04:06:08] [Server thread/INFO]: <--[HERE]
+[04:07:14] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:14] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:31] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:31] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:34] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:34] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:36] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:36] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:56] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:07:56] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[04:08:03] [Server thread/INFO]: Reloading!
+[04:08:04] [Server thread/INFO]: Loaded 15 recipes
+[04:08:04] [Server thread/INFO]: Loaded 2456 advancements
+[04:08:04] [Server thread/INFO]: Loaded 14 turtle upgrades
+[04:08:04] [Server thread/INFO]: Registering pocket module plethora:kinetic with crafting item 1 module_kinetic
+[04:08:04] [Server thread/INFO]: Registering pocket module plethora:introspection with crafting item 1 module_introspection
+[04:08:04] [Server thread/INFO]: Registering pocket module plethora:scanner with crafting item 1 module_scanner
+[04:08:04] [Server thread/INFO]: Registering pocket module plethora:sensor with crafting item 1 module_sensor
+[04:08:04] [Server thread/INFO]: Registering pocket module plethora:keyboard with crafting item 1 module_keyboard
+[04:08:04] [Server thread/INFO]: Registering pocket module plethora:laser with crafting item 1 module_laser
+[04:08:04] [Server thread/INFO]: Loaded 9 pocket computer upgrades
+[04:15:52] [Server thread/WARN]: Rejecting UseItemOnPacket from M4Z0: Location (-571.125, 61.73220193386078, -485.84463226795197) too far away from hit block class_2338{x=-572, y=61, z=-485}.
+[04:16:40] [Server thread/INFO]: M4Z0 lost connection: Disconnected
+[04:16:40] [Server thread/INFO]: M4Z0 left the game

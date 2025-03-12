@@ -156,26 +156,7 @@ disabled_generic_methods = []
 	#A list of rules which control behaviour of the "http" API for specific domains or
 	#IPs. Each rule matches against a hostname and an optional port, and then sets several
 	#properties for the request.  Rules are evaluated in order, meaning earlier rules override
-	#later ones.
-	#
-	#Valid properties:
-	# - "host" (required): The domain or IP address this rule matches. This may be a domain name
-	#   ("pastebin.com"), wildcard ("*.pastebin.com") or CIDR notation ("127.0.0.0/8").
-	# - "port" (optional): Only match requests for a specific port, such as 80 or 443.
-	#
-	# - "action" (optional): Whether to allow or deny this request.
-	# - "max_download" (optional): The maximum size (in bytes) that a computer can download in this
-	#   request.
-	# - "max_upload" (optional): The maximum size (in bytes) that a computer can upload in a this request.
-	# - "max_websocket_message" (optional): The maximum size (in bytes) that a computer can send or
-	#   receive in one websocket packet.
-	# - "use_proxy" (optional): Enable use of the HTTP/SOCKS proxy if it is configured.
-	[[http.rules]]
-		#The magic "$private" host matches all private address ranges, such as localhost and 192.168.0.0/16.
-		#This rule prevents computers accessing internal services, and is strongly recommended.
-		host = "$private"
-		#Deny all requests to private IP addresses.
-		action = "deny"
+	#later ones
 	[[http.rules]]
 		#The wildcard "*" rule matches all remaining hosts.
 		host = "*"
