@@ -404,3 +404,39 @@
 [05:17:42] [Server thread/INFO]: Unknown or incomplete command, see below for error
 [05:17:42] [Server thread/INFO]: <--[HERE]
 [05:31:10] [Server thread/INFO]: elyxdev has made the advancement [Carbon Footprint]
+[06:13:58] [Server thread/INFO]: elyxdev lost connection: Disconnected
+[06:13:58] [Server thread/INFO]: elyxdev left the game
+[06:14:14] [Server thread/INFO]: Stopping the server
+[06:14:14] [Server thread/INFO]: Server stopped, resetting cost handler and shared task runner
+[06:14:14] [Server thread/INFO]: Stopping server
+[06:14:14] [Server thread/INFO]: Saving players
+[06:14:14] [Server thread/INFO]: Saving worlds
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
