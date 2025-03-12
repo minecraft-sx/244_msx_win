@@ -2390,45 +2390,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_deepslate": {
+  "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
-      "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
+      "has_copper_ingot": "2025-03-12 04:25:51 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed": {
+  "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
-      "has_gray_wool": "2025-03-12 05:15:20 +0000"
+      "has_copper_ingot": "2025-03-12 04:25:51 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+  "minecraft:recipes/tools/brush": {
     "criteria": {
-      "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
+      "has_copper_ingot": "2025-03-12 04:25:51 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye": {
+  "ad_astra:under_pressure": {
     "criteria": {
-      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
+      "has_compressor": "2025-03-12 04:43:22 +0000"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/iron_plateblock": {
+  "camerapture:shutterbug": {
     "criteria": {
-      "has_iron_plateblock": "2025-03-12 05:33:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
+      "camera": "2025-03-12 04:49:05 +0000"
     },
     "done": true
   },
@@ -2438,33 +2426,39 @@
     },
     "done": true
   },
-  "comforts:hammock_gray": {
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
-      "has_gray_wool": "2025-03-12 05:15:20 +0000"
+      "has_raw_gold": "2025-03-12 04:56:30 +0000"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/encased_iron_block": {
+  "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
-      "has_encased_iron_block": "2025-03-12 05:33:42 +0000"
+      "has_raw_gold": "2025-03-12 04:56:30 +0000"
     },
     "done": true
   },
-  "ad_astra:carbon_footprint": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "has_coal_generator": "2025-03-12 05:31:10 +0000"
+      "lava_bucket": "2025-03-12 04:58:02 +0000"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/wrench": {
+  "minecraft:recipes/building_blocks/polished_deepslate": {
     "criteria": {
-      "has_wrench": "2025-03-12 05:33:42 +0000"
+      "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/etrionic_blast_furnace": {
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
-      "has_etrionic_blast_furnace": "2025-03-12 05:33:42 +0000"
+      "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
     },
     "done": true
   },
@@ -2483,18 +2477,6 @@
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lightning_rod": {
-    "criteria": {
-      "has_copper_ingot": "2025-03-12 04:25:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2025-03-12 05:15:20 +0000"
     },
     "done": true
   },
@@ -2522,51 +2504,15 @@
     },
     "done": true
   },
-  "ad_astra:under_pressure": {
-    "criteria": {
-      "has_compressor": "2025-03-12 04:43:22 +0000"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/gas_tank": {
-    "criteria": {
-      "has_gas_tank": "2025-03-12 05:33:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/copper_block": {
-    "criteria": {
-      "has_copper_ingot": "2025-03-12 04:25:51 +0000"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/iron_panel": {
-    "criteria": {
-      "has_iron_panel": "2025-03-12 05:33:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-03-12 04:56:30 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-03-12 04:58:02 +0000"
     },
     "done": true
   },
@@ -2582,39 +2528,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/brush": {
-    "criteria": {
-      "has_copper_ingot": "2025-03-12 04:25:51 +0000"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/iron_rod": {
-    "criteria": {
-      "has_iron_rod": "2025-03-12 05:33:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
-    "criteria": {
-      "has_raw_gold": "2025-03-12 04:56:30 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_gray": {
-    "criteria": {
-      "has_gray_wool": "2025-03-12 05:15:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/gray_flag": {
-    "criteria": {
-      "has_gray_flag": "2025-03-12 05:15:20 +0000"
     },
     "done": true
   },
@@ -2636,39 +2552,9 @@
     },
     "done": true
   },
-  "camerapture:shutterbug": {
-    "criteria": {
-      "camera": "2025-03-12 04:49:05 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/decorations/gray_sleeping_bag": {
-    "criteria": {
-      "has_gray_wool": "2025-03-12 05:15:20 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/lapis": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-12 05:07:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_banner": {
-    "criteria": {
-      "has_gray_wool": "2025-03-12 05:15:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2025-03-12 05:13:42 +0000"
     },
     "done": true
   },
@@ -2684,9 +2570,111 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-03-12 05:13:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2025-03-12 05:13:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-03-12 05:15:20 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_gray": {
+    "criteria": {
+      "has_gray_wool": "2025-03-12 05:15:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-03-12 05:15:20 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_gray": {
+    "criteria": {
+      "has_gray_wool": "2025-03-12 05:15:20 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gray_flag": {
+    "criteria": {
+      "has_gray_flag": "2025-03-12 05:15:20 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/gray_sleeping_bag": {
+    "criteria": {
+      "has_gray_wool": "2025-03-12 05:15:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-03-12 05:15:20 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:carbon_footprint": {
+    "criteria": {
+      "has_coal_generator": "2025-03-12 05:31:10 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:ad_astra": {
+    "criteria": {
+      "has_coal_generator": "2025-03-12 05:31:10 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_plateblock": {
+    "criteria": {
+      "has_iron_plateblock": "2025-03-12 05:33:42 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/encased_iron_block": {
+    "criteria": {
+      "has_encased_iron_block": "2025-03-12 05:33:42 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/wrench": {
+    "criteria": {
+      "has_wrench": "2025-03-12 05:33:42 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/etrionic_blast_furnace": {
+    "criteria": {
+      "has_etrionic_blast_furnace": "2025-03-12 05:33:42 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gas_tank": {
+    "criteria": {
+      "has_gas_tank": "2025-03-12 05:33:42 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_panel": {
+    "criteria": {
+      "has_iron_panel": "2025-03-12 05:33:42 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_rod": {
+    "criteria": {
+      "has_iron_rod": "2025-03-12 05:33:42 +0000"
     },
     "done": true
   },
@@ -2702,9 +2690,21 @@
     },
     "done": true
   },
-  "ad_astra:ad_astra": {
+  "minecraft:recipes/misc/blue_dye": {
     "criteria": {
-      "has_coal_generator": "2025-03-12 05:31:10 +0000"
+      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/lapis": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-12 05:57:38 +0000"
     },
     "done": true
   },

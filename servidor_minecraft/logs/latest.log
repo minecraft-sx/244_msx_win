@@ -1,8 +1,8 @@
-[03:16:43] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[03:16:44] [ForkJoinPool-1-worker-4/WARN]: Mod incapacitated uses the version 1.9.3LTS which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3LTS'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[03:16:44] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[21:57:25] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[21:57:25] [ForkJoinPool-1-worker-2/WARN]: Mod incapacitated uses the version 1.9.3LTS which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3LTS'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:57:25] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[03:16:44] [main/INFO]: Loading 155 mods:
+[21:57:25] [main/INFO]: Loading 156 mods:
 	- ad_astra 1.15.20
 	   \-- javazoom_jlayer 1.0.1
 	- appleskin 2.5.1+mc1.20
@@ -128,6 +128,7 @@
 	        \-- libninepatch 1.2.0
 	- jade 11.11.0+fabric
 	- java 17
+	- jei 15.20.0.106
 	- lithium 0.11.3
 	- memoryleakfix 1.1.5
 	- minecraft 1.20.1
@@ -183,260 +184,377 @@
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
 	- yungsextras 1.20-Fabric-4.0.3
-[03:16:44] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/244_msx_win/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:16:44] [main/INFO]: Compatibility level set to JAVA_17
-[03:16:45] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 1 override(s) found
-[03:16:45] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:16:45] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 64 options available, 0 override(s) found
-[03:16:45] [main/INFO]: Applying Nashorn fix
-[03:16:45] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:16:45] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:16:46] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[03:16:46] [main/WARN]: Error loading class: net/minecraft/class_635 (java.lang.ClassNotFoundException: net/minecraft/class_635)
-[03:16:46] [main/WARN]: @Mixin target net.minecraft.class_635 was not found tacz.mixins.json:client.network.ClientLoginNetworkHandlerAccessor from mod tacz
-[03:16:46] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[03:16:46] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[03:16:46] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[03:16:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[03:16:47] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bpj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[03:16:49] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[03:16:49] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[03:16:49] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[03:16:50] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin from mod palladiumcore::handler$bod000$palladiumcore$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[03:16:52] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[03:16:53] [main/INFO]: Vanilla bootstrap took 4716 milliseconds
-[03:16:55] [main/INFO]: Reflections took 69 ms to scan 1 urls, producing 1 keys and 2 values
-[03:16:55] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
-[03:16:56] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 3 values
-[03:16:56] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[03:16:56] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 2 values
-[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[03:16:56] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[03:16:57] [main/INFO]: Bypassed Mojang DFU
-[03:16:57] [main/INFO]: Instantiating Mojang DFU
-[03:16:57] [main/ERROR]: No data fixer registered for anomaly
-[03:16:58] [main/INFO]: Plethora initializing
-[03:16:58] [main/INFO]: Plethora core initializing
-[03:16:58] [main/INFO]: Beginning Plethora registration
-[03:16:59] [main/WARN]: You're registering a method (getMetadata) targeting the base class (Object). Converters will probably mask the original object: it is recommended that you implement IConverterExcludeMethod to avoid this.
-[03:16:59] [main/INFO]: Building converter registry
-[03:16:59] [main/INFO]: Building meta registry
-[03:16:59] [main/INFO]: Building method registry
-[03:16:59] [main/INFO]: Updating base costs in configuration file
-[03:16:59] [main/INFO]: Registering C2S receiver with id powah:packet
-[03:16:59] [main/INFO]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[03:16:59] [main/INFO]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[03:16:59] [main/INFO]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[03:16:59] [main/INFO]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[03:16:59] [main/INFO]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[03:16:59] [main/INFO]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[03:16:59] [main/INFO]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[03:16:59] [main/INFO]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
-[03:17:01] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[03:17:01] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[03:17:01] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[03:17:01] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[03:17:01] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[03:17:01] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[03:17:01] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[03:17:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[03:17:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[03:17:01] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[03:17:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[03:17:01] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 4 values
-[03:17:01] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[03:17:01] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[03:17:01] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[03:17:01] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[03:17:01] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[03:17:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:17:03] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[03:17:05] [main/INFO]: Loaded 15 recipes
-[03:17:05] [main/INFO]: Loaded 2456 advancements
-[03:17:05] [main/INFO]: Loaded 14 turtle upgrades
-[03:17:05] [main/INFO]: Registering pocket module plethora:kinetic with crafting item 1 module_kinetic
-[03:17:05] [main/INFO]: Registering pocket module plethora:introspection with crafting item 1 module_introspection
-[03:17:05] [main/INFO]: Registering pocket module plethora:scanner with crafting item 1 module_scanner
-[03:17:05] [main/INFO]: Registering pocket module plethora:sensor with crafting item 1 module_sensor
-[03:17:05] [main/INFO]: Registering pocket module plethora:keyboard with crafting item 1 module_keyboard
-[03:17:05] [main/INFO]: Registering pocket module plethora:laser with crafting item 1 module_laser
-[03:17:05] [main/INFO]: Loaded 9 pocket computer upgrades
-[03:17:05] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[03:17:06] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[03:17:06] [main/INFO]: Applied 1269 biome modifications to 144 of 144 new biomes in 107.9 ms
-[03:17:06] [Server thread/INFO]: Loaded Tom's Peripherals config file toms_peripherals-server.toml
-[03:17:06] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
-[03:17:06] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
-[03:17:06] [Server thread/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[03:17:06] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[03:17:06] [Server thread/INFO]: Loading properties
-[03:17:06] [Server thread/INFO]: Default game type: SURVIVAL
-[03:17:06] [Server thread/INFO]: Generating keypair
-[03:17:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:17:06] [Server thread/INFO]: Using epoll channel type
-[03:17:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:17:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:17:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:17:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:17:07] [Server thread/INFO]: Preparing level "world"
-[03:17:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:17:07] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:17:11] [Server thread/INFO]: Time elapsed: 3231 ms
-[03:17:11] [Server thread/INFO]: Done (3.972s)! For help, type "help"
-[03:17:11] [Server thread/WARN]: Dedicated server took 29.042 seconds to load
-[03:17:11] [Server thread/INFO]: Start loading plugin from Balm
-[03:17:11] [Server thread/INFO]: Start loading plugin from Camerapture
-[03:17:11] [Server thread/INFO]: Start loading plugin from Jade
-[03:17:11] [Server thread/INFO]: Start loading plugin from Jade
-[03:17:11] [Server thread/INFO]: Start loading plugin from Jade
-[03:17:11] [Server thread/INFO]: Start loading plugin from Tom's Peripherals
-[03:17:11] [Server thread/INFO]: Server started, resetting shared task runner
-[03:17:38] [Server thread/INFO]: elyxdev[/100.113.222.78:51044] logged in with entity id 55 at (-543.6999999880791, 69.0, -492.48750001192093)
-[03:17:38] [Server thread/INFO]: Syncing config to elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346)
-[03:17:38] [Server thread/INFO]: Loading config from file...
-[03:17:38] [Server thread/INFO]: elyxdev joined the game
-[03:17:48] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[03:18:35] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
-[03:18:35] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
-[03:19:09] [Server thread/INFO]: M4Z0[/100.90.178.36:52807] logged in with entity id 578 at (-521.1486157970722, 52.0, -366.03163852075926)
-[03:19:09] [Server thread/INFO]: Syncing config to M4Z0 (e8112f16-27a6-3554-a4fa-3be2a6a2817a)
-[03:19:09] [Server thread/INFO]: Loading config from file...
-[03:19:09] [Server thread/INFO]: M4Z0 joined the game
-[03:19:21] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[03:20:11] [Server thread/INFO]: M4Z0 has made the advancement [Getting an Upgrade]
-[03:21:34] [Server thread/INFO]: [Not Secure] <elyxdev> compressor
-[03:24:02] [Server thread/INFO]: [Not Secure] <elyxdev> Block scanner
-[03:28:49] [Server thread/INFO]: M4Z0 tried to swim in lava to escape Skeleton
-[03:31:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[03:31:15] [Server thread/INFO]: <--[HERE]
-[03:31:25] [Server thread/INFO]: elyxdev has made the advancement [Cobweb Entanglement]
-[03:33:08] [Server thread/INFO]: [Not Secure] <M4Z0> xaero-waypoint:aldea:A:-824:63:-371:13:false:0:Internal-overworld-waypoints
-[03:34:46] [Server thread/INFO]: elyxdev is incapacitated!
-[03:34:51] [Server thread/INFO]: elyxdev hit the ground too hard and bled out
-[03:37:14] [Server thread/INFO]: [elyxdev: M4Z0 has 3 incapacitations until death]
-[03:37:25] [Server thread/INFO]: [Not Secure] <elyxdev> incapacitated die
-[03:37:57] [Server thread/INFO]: M4Z0 is incapacitated!
-[03:37:58] [Server thread/INFO]: M4Z0 was blown up by Creeper and bled out
-[03:40:10] [Server thread/INFO]: M4Z0 has made the advancement [Suit Up]
-[03:41:53] [Server thread/INFO]: elyxdev has made the advancement [Isn't It Iron Pick]
-[03:41:58] [Server thread/INFO]: M4Z0 has made the advancement [Isn't It Iron Pick]
-[03:44:36] [Server thread/INFO]: M4Z0 has made the advancement [Diamonds!]
-[03:48:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:44] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:44] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:44] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:48:47] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[03:55:54] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[03:55:54] [Server thread/INFO]: <--[HERE]
-[03:57:45] [Server thread/INFO]: M4Z0 tried to swim in lava
-[03:59:22] [Server thread/INFO]: M4Z0 has made the advancement [Cover Me with Diamonds]
-[04:03:04] [Server thread/INFO]: M4Z0 has made the advancement [Take Aim]
-[04:06:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[04:06:08] [Server thread/INFO]: <--[HERE]
-[04:07:14] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:14] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:31] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:31] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:34] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:34] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:36] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:36] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:56] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:07:56] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[04:08:03] [Server thread/INFO]: Reloading!
-[04:08:04] [Server thread/INFO]: Loaded 15 recipes
-[04:08:04] [Server thread/INFO]: Loaded 2456 advancements
-[04:08:04] [Server thread/INFO]: Loaded 14 turtle upgrades
-[04:08:04] [Server thread/INFO]: Registering pocket module plethora:kinetic with crafting item 1 module_kinetic
-[04:08:04] [Server thread/INFO]: Registering pocket module plethora:introspection with crafting item 1 module_introspection
-[04:08:04] [Server thread/INFO]: Registering pocket module plethora:scanner with crafting item 1 module_scanner
-[04:08:04] [Server thread/INFO]: Registering pocket module plethora:sensor with crafting item 1 module_sensor
-[04:08:04] [Server thread/INFO]: Registering pocket module plethora:keyboard with crafting item 1 module_keyboard
-[04:08:04] [Server thread/INFO]: Registering pocket module plethora:laser with crafting item 1 module_laser
-[04:08:04] [Server thread/INFO]: Loaded 9 pocket computer upgrades
-[04:15:52] [Server thread/WARN]: Rejecting UseItemOnPacket from M4Z0: Location (-571.125, 61.73220193386078, -485.84463226795197) too far away from hit block class_2338{x=-572, y=61, z=-485}.
-[04:16:40] [Server thread/INFO]: M4Z0 lost connection: Disconnected
-[04:16:40] [Server thread/INFO]: M4Z0 left the game
-[04:43:22] [Server thread/INFO]: elyxdev has made the advancement [Under Pressure]
-[04:49:05] [Server thread/INFO]: elyxdev has made the advancement [Shutterbug]
-[04:50:00] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[04:50:00] [Server thread/INFO]: <--[HERE]
-[04:50:05] [Server thread/INFO]: Set elyxdev's game mode to Spectator Mode
-[04:51:08] [Server thread/INFO]: Set elyxdev's game mode to Survival Mode
-[04:58:02] [Server thread/INFO]: elyxdev has made the advancement [Hot Stuff]
-[04:59:24] [Server thread/INFO]: elyxdev tried to swim in lava
-[05:10:33] [Server thread/INFO]: elyxdev is incapacitated!
-[05:10:36] [Server thread/INFO]: elyxdev tried to swim in lava
-[05:17:42] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[05:17:42] [Server thread/INFO]: <--[HERE]
-[05:31:10] [Server thread/INFO]: elyxdev has made the advancement [Carbon Footprint]
-[06:13:58] [Server thread/INFO]: elyxdev lost connection: Disconnected
-[06:13:58] [Server thread/INFO]: elyxdev left the game
-[06:14:14] [Server thread/INFO]: Stopping the server
-[06:14:14] [Server thread/INFO]: Server stopped, resetting cost handler and shared task runner
-[06:14:14] [Server thread/INFO]: Stopping server
-[06:14:14] [Server thread/INFO]: Saving players
-[06:14:14] [Server thread/INFO]: Saving worlds
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
-[06:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[06:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:57:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/244_msx_win/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:57:25] [main/INFO]: Compatibility level set to JAVA_17
+[21:57:26] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 1 override(s) found
+[21:57:26] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:57:26] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 64 options available, 0 override(s) found
+[21:57:26] [main/INFO]: Applying Nashorn fix
+[21:57:26] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:57:26] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:57:26] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[21:57:26] [main/WARN]: Error loading class: net/minecraft/class_635 (java.lang.ClassNotFoundException: net/minecraft/class_635)
+[21:57:26] [main/WARN]: @Mixin target net.minecraft.class_635 was not found tacz.mixins.json:client.network.ClientLoginNetworkHandlerAccessor from mod tacz
+[21:57:27] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[21:57:27] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[21:57:27] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[21:57:27] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:57:28] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bpj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:57:29] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:57:29] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:57:29] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[21:57:30] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin from mod palladiumcore::handler$bod000$palladiumcore$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:57:31] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[21:57:32] [main/INFO]: Vanilla bootstrap took 2993 milliseconds
+[21:57:33] [main/INFO]: Reflections took 35 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:33] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[21:57:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[21:57:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:57:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[21:57:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[21:57:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[21:57:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:33] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:57:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[21:57:34] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:34] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:34] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:57:34] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:57:34] [main/INFO]: Bypassed Mojang DFU
+[21:57:34] [main/INFO]: Instantiating Mojang DFU
+[21:57:35] [main/ERROR]: No data fixer registered for anomaly
+[21:57:35] [main/INFO]: Plethora initializing
+[21:57:35] [main/INFO]: Plethora core initializing
+[21:57:35] [main/INFO]: Beginning Plethora registration
+[21:57:35] [main/WARN]: You're registering a method (getMetadata) targeting the base class (Object). Converters will probably mask the original object: it is recommended that you implement IConverterExcludeMethod to avoid this.
+[21:57:35] [main/INFO]: Building converter registry
+[21:57:35] [main/INFO]: Building meta registry
+[21:57:35] [main/INFO]: Building method registry
+[21:57:35] [main/INFO]: Updating base costs in configuration file
+[21:57:35] [main/INFO]: Registering C2S receiver with id powah:packet
+[21:57:36] [main/INFO]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[21:57:36] [main/INFO]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[21:57:36] [main/INFO]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[21:57:36] [main/INFO]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[21:57:36] [main/INFO]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[21:57:36] [main/INFO]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[21:57:36] [main/INFO]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[21:57:36] [main/INFO]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[21:57:37] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:57:37] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[21:57:37] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[21:57:37] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[21:57:37] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[21:57:37] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[21:57:37] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[21:57:37] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
+[21:57:37] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[21:57:37] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[21:57:37] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[21:57:37] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[21:57:37] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[21:57:37] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[21:57:37] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:37] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:37] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:37] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:57:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:57:37] [main/INFO]: Found new data pack file/Timber Strike v3.01.20.4.zip, loading it automatically
+[21:57:37] [main/INFO]: Found new data pack file/dynamiclights-v1.8.3-mc1.17x-1.21x-datapack.zip, loading it automatically
+[21:57:38] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[21:57:40] [main/INFO]: Loaded 15 recipes
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/unbreaking2
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 44: ...andom run <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 44: ...andom run <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/unbreaking3
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 44: ...andom run <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 44: ...andom run <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/unbreaking
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 44: ...andom run <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 44: ...andom run <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/birch
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/acacia
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/cherry
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/crimson
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/warped
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/mangrove
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/dark_oak
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/oak
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/spruce
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/mushroom
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/ERROR]: Failed to load function timberstrike:mine/jungle
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected integer at position 68: ...un return <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[21:57:40] [main/INFO]: Loaded 2457 advancements
+[21:57:40] [main/INFO]: Loaded 14 turtle upgrades
+[21:57:40] [main/INFO]: Registering pocket module plethora:kinetic with crafting item 1 module_kinetic
+[21:57:40] [main/INFO]: Registering pocket module plethora:introspection with crafting item 1 module_introspection
+[21:57:40] [main/INFO]: Registering pocket module plethora:scanner with crafting item 1 module_scanner
+[21:57:40] [main/INFO]: Registering pocket module plethora:sensor with crafting item 1 module_sensor
+[21:57:40] [main/INFO]: Registering pocket module plethora:keyboard with crafting item 1 module_keyboard
+[21:57:40] [main/INFO]: Registering pocket module plethora:laser with crafting item 1 module_laser
+[21:57:40] [main/INFO]: Loaded 9 pocket computer upgrades
+[21:57:40] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21:57:40] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21:57:40] [main/INFO]: Applied 1269 biome modifications to 144 of 144 new biomes in 58.19 ms
+[21:57:40] [Server thread/INFO]: Loaded Tom's Peripherals config file toms_peripherals-server.toml
+[21:57:40] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
+[21:57:40] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
+[21:57:40] [Server thread/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[21:57:41] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:57:41] [Server thread/INFO]: Loading properties
+[21:57:41] [Server thread/INFO]: Default game type: SURVIVAL
+[21:57:41] [Server thread/INFO]: Generating keypair
+[21:57:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:57:41] [Server thread/INFO]: Using epoll channel type
+[21:57:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:57:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:57:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:57:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:57:41] [Server thread/INFO]: Preparing level "world"
+[21:57:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:57:41] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[21:57:43] [Server thread/INFO]: Preparing spawn area: 0%
+[21:57:43] [Server thread/INFO]: Preparing spawn area: 0%
+[21:57:43] [Server thread/INFO]: Preparing spawn area: 0%
+[21:57:43] [Server thread/INFO]: Preparing spawn area: 0%
+[21:57:43] [Server thread/INFO]: Preparing spawn area: 0%
+[21:57:44] [Server thread/INFO]: Time elapsed: 2332 ms
+[21:57:44] [Server thread/INFO]: Done (2.766s)! For help, type "help"
+[21:57:44] [Server thread/WARN]: Dedicated server took 20.297 seconds to load
+[21:57:44] [Server thread/INFO]: Start loading plugin from Balm
+[21:57:44] [Server thread/INFO]: Start loading plugin from Camerapture
+[21:57:44] [Server thread/INFO]: Start loading plugin from Jade
+[21:57:44] [Server thread/INFO]: Start loading plugin from Jade
+[21:57:44] [Server thread/INFO]: Start loading plugin from Jade
+[21:57:44] [Server thread/INFO]: Start loading plugin from Tom's Peripherals
+[21:57:44] [Server thread/INFO]: Server started, resetting shared task runner
+[21:59:16] [Server thread/INFO]: elyxdev[/100.113.222.78:51271] logged in with entity id 55 at (-564.904845534484, 62.0, -479.36008182283217)
+[21:59:16] [Server thread/INFO]: Syncing config to elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346)
+[21:59:16] [Server thread/INFO]: Loading config from file...
+[21:59:16] [Server thread/INFO]: elyxdev joined the game
+[21:59:17] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
+[21:59:33] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
+[21:59:39] [Server thread/INFO]: elyxdev is incapacitated!
+[21:59:58] [Server thread/INFO]: elyxdev hit the ground too hard and bled out
+[22:00:43] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
+[22:01:46] [Server thread/INFO]: M4Z0[/100.90.178.36:63893] logged in with entity id 1254 at (-572.2544305328859, 61.0, -483.55260395384875)
+[22:01:46] [Server thread/INFO]: Syncing config to M4Z0 (e8112f16-27a6-3554-a4fa-3be2a6a2817a)
+[22:01:46] [Server thread/INFO]: Loading config from file...
+[22:01:46] [Server thread/INFO]: M4Z0 joined the game
+[22:01:58] [Server thread/WARN]: M4Z0 was kicked for floating too long!
+[22:01:58] [Server thread/INFO]: M4Z0 lost connection: Flying is not enabled on this server
+[22:01:58] [Server thread/INFO]: M4Z0 left the game
+[22:02:10] [Server thread/INFO]: M4Z0[/100.90.178.36:63906] logged in with entity id 1431 at (-572.2544305328859, 61.0, -483.55260395384875)
+[22:02:10] [Server thread/INFO]: Syncing config to M4Z0 (e8112f16-27a6-3554-a4fa-3be2a6a2817a)
+[22:02:10] [Server thread/INFO]: Loading config from file...
+[22:02:10] [Server thread/INFO]: M4Z0 joined the game
+[22:02:22] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
+[22:02:25] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:02:35] [Server thread/INFO]: M4Z0 has been revived!
