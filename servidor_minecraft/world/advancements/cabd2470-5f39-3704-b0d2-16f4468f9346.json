@@ -2394,6 +2394,12 @@
     },
     "done": true
   },
+  "ad_astra:under_pressure": {
+    "criteria": {
+      "has_compressor": "2025-03-12 04:43:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
       "has_copper_ingot": "2025-03-12 04:25:51 +0000"
