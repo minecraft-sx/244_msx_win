@@ -26,6 +26,7 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "mystic_grove": "2025-03-12 02:00:40 +0000",
+      "withered_abyss": "2025-03-12 23:25:55 +0000",
       "coniferous_forest": "2025-03-12 02:05:47 +0000",
       "spider_nest": "2025-03-12 03:44:09 +0000",
       "redwood_forest": "2025-03-12 02:04:06 +0000",
@@ -33,6 +34,7 @@
       "grassland": "2025-03-12 01:56:51 +0000",
       "prairie": "2025-03-12 02:05:29 +0000",
       "gravel_beach": "2025-03-12 23:02:09 +0000",
+      "undergrowth": "2025-03-12 23:24:57 +0000",
       "ominous_woods": "2025-03-12 02:00:58 +0000"
     },
     "done": false
@@ -613,7 +615,10 @@
     "criteria": {
       "minecraft:pillager": "2025-03-12 02:09:57 +0000",
       "minecraft:skeleton": "2025-03-12 02:26:18 +0000",
+      "minecraft:ghast": "2025-03-12 23:18:58 +0000",
+      "minecraft:hoglin": "2025-03-12 23:19:59 +0000",
       "minecraft:spider": "2025-03-12 02:52:21 +0000",
+      "minecraft:piglin_brute": "2025-03-12 23:20:33 +0000",
       "minecraft:creeper": "2025-03-12 02:55:12 +0000",
       "minecraft:husk": "2025-03-12 02:29:51 +0000",
       "minecraft:piglin": "2025-03-12 23:04:10 +0000",
@@ -1947,6 +1952,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-03-12 23:20:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-03-12 22:29:23 +0000"
@@ -1962,6 +1973,12 @@
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_flint": "2025-03-12 23:03:00 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_block": {
+    "criteria": {
+      "has_item": "2025-03-12 23:20:11 +0000"
     },
     "done": true
   },
@@ -2121,9 +2138,27 @@
     },
     "done": true
   },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2025-03-12 23:20:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2025-03-12 22:35:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-03-12 23:20:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-03-12 23:18:58 +0000"
     },
     "done": true
   },

@@ -633,3 +633,18 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 [23:17:08] [Server thread/INFO]: M4Z0 tried to swim in lava to escape Piglin
 [23:17:30] [Server thread/INFO]: M4Z0 is incapacitated!
 [23:17:32] [Server thread/INFO]: M4Z0 hit the ground too hard whilst trying to escape elyxdev and bled out
+[23:18:58] [Server thread/INFO]: M4Z0 has completed the challenge [Return to Sender]
+[23:20:05] [Server thread/INFO]: M4Z0 has made the advancement [War Pigs]
+[23:23:03] [Worker-Main-2/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/43314, l='ServerLevel[world]', x=-149.00, y=31.00, z=253.00] as it would cause deadlock
+[23:23:03] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/43318, l='ServerLevel[world]', x=-149.00, y=31.00, z=253.00] as it would cause deadlock
+[23:25:00] [Worker-Main-2/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/43944, l='ServerLevel[world]', x=23.00, y=31.00, z=379.00] as it would cause deadlock
+[23:25:00] [Worker-Main-1/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/43947, l='ServerLevel[world]', x=-19.00, y=31.00, z=379.00] as it would cause deadlock
+[23:25:04] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/43979, l='ServerLevel[world]', x=-19.00, y=31.00, z=379.00] as it would cause deadlock
+[23:25:04] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/43982, l='ServerLevel[world]', x=23.00, y=31.00, z=379.00] as it would cause deadlock
+[23:25:41] [Worker-Main-2/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/44272, l='ServerLevel[world]', x=254.00, y=31.00, z=56.00] as it would cause deadlock
+[23:25:41] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/44274, l='ServerLevel[world]', x=254.00, y=31.00, z=56.00] as it would cause deadlock
+[23:25:57] [Worker-Main-9/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/44461, l='ServerLevel[world]', x=291.00, y=31.00, z=248.00] as it would cause deadlock
+[23:25:57] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/44464, l='ServerLevel[world]', x=291.00, y=31.00, z=248.00] as it would cause deadlock
+[23:26:29] [Worker-Main-9/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/44677, l='ServerLevel[world]', x=353.00, y=31.00, z=267.00] as it would cause deadlock
+[23:26:29] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/44680, l='ServerLevel[world]', x=353.00, y=31.00, z=267.00] as it would cause deadlock
+[23:27:03] [Server thread/INFO]: M4Z0 tried to swim in lava
