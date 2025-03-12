@@ -558,3 +558,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 [22:02:22] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
 [22:02:25] [Server thread/INFO]: M4Z0 is incapacitated!
 [22:02:35] [Server thread/INFO]: M4Z0 has been revived!
+[22:09:21] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:09:25] [Server thread/INFO]: M4Z0 drowned and bled out
+[22:10:34] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:10:36] [Server thread/INFO]: M4Z0 was blown up by Creeper and bled out
+[22:14:48] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:14:51] [Server thread/INFO]: M4Z0 fell from a high place
+[22:15:03] [Server thread/INFO]: elyxdev has made the advancement [Diamonds!]
