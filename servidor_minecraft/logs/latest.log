@@ -579,3 +579,33 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 [22:36:56] [Server thread/INFO]: elyxdev is incapacitated!
 [22:37:08] [Server thread/INFO]: elyxdev hit the ground too hard and bled out
 [22:45:09] [Server thread/INFO]: elyxdev tried to swim in lava
+[22:49:29] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:49:30] [Server thread/INFO]: M4Z0 burned to death and bled out
+[22:49:37] [Server thread/INFO]: gglancelot[/100.102.121.1:50541] logged in with entity id 26958 at (-584.4737517920325, 74.0, -379.82652402110244)
+[22:49:37] [Server thread/INFO]: Syncing config to gglancelot (c50d39f9-10c8-3a68-bf37-fc2c7eafdb0b)
+[22:49:37] [Server thread/INFO]: Loading config from file...
+[22:49:37] [Server thread/INFO]: gglancelot joined the game
+[22:49:46] [Server thread/INFO]: elyxdev is incapacitated!
+[22:49:49] [Server thread/INFO]: elyxdev hit the ground too hard and bled out
+[22:50:07] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:50:10] [Server thread/INFO]: M4Z0 hit the ground too hard whilst trying to escape elyxdev and bled out
+[22:50:23] [Server thread/INFO]: gglancelot lost connection: Timed out
+[22:50:23] [Server thread/INFO]: gglancelot left the game
+[22:51:01] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:51:01] [Server thread/INFO]: M4Z0 hit the ground too hard and bled out
+[22:51:02] [Server thread/INFO]: elyxdev is incapacitated!
+[22:51:05] [Server thread/INFO]: elyxdev hit the ground too hard and bled out
+[22:51:52] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:51:54] [Server thread/INFO]: M4Z0 hit the ground too hard and bled out
+[22:52:04] [Server thread/WARN]: M4Z0 moved too quickly! -0.5991526056684506,-11.83000956639124,0.4677379511298909
+[22:52:05] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:52:09] [Server thread/INFO]: M4Z0 hit the ground too hard and bled out
+[22:53:26] [Server thread/INFO]: elyxdev is incapacitated!
+[22:53:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-572, y=-43, z=-487}
+[22:53:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-573, y=-43, z=-487}
+[22:53:29] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:53:31] [Server thread/INFO]: M4Z0 was slain by elyxdev and bled out
+[22:53:34] [Server thread/INFO]: elyxdev hit the ground too hard and bled out
+[22:55:44] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:55:48] [Server thread/INFO]: M4Z0 hit the ground too hard and bled out
+[22:56:19] [Server thread/INFO]: elyxdev has made the advancement [Rocket Science]

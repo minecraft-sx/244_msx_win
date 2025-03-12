@@ -17,7 +17,7 @@ frontChest = false
 facing = 2
 logFolder = "Quarry_Logs"
 autoResume = true
-relxPos = 0
+relxPos = 10
 gpsTimeout = 3
 preciseTotals = false
 logExtension = ""
@@ -34,7 +34,7 @@ exclusions = {
 flatBedrock = false
 layers = 34
 logging = true
-percent = 55
+percent = 63
 allowedItems = {
   0,
   0,
@@ -84,24 +84,24 @@ dumpSlots = {
 gotoDest = "drop off"
 lavaBuffer = 500
 zPos = 1
-yPos = 1
+yPos = 30
 fuelChest = false
 oreQuarryBlacklistName = "oreQuarryBlacklist.txt"
 totals = {
-  other = 2132,
-  fuel = 0,
-  cobble = 209,
+  other = 3019,
+  fuel = 3,
+  cobble = 264,
 }
 lavaBucket = false
 numResumed = 4
-layersDone = 19
+layersDone = 22
 y = 100
 x = 10
-numDropOffs = 3
+numDropOffs = 4
 z = 10
 originalFuel = 6287
-mined = 3336
-relzPos = 1
+mined = 4215
+relzPos = 10
 compareSlots = {}
 fuelMultiplier = 1
 quadTimeout = 300
@@ -113,23 +113,7 @@ slot = {
   },
   {
     3,
-    49,
-  },
-  {
-    3,
-    64,
-  },
-  {
-    3,
-    64,
-  },
-  {
-    3,
-    64,
-  },
-  {
-    3,
-    5,
+    25,
   },
   {
     3,
@@ -149,7 +133,7 @@ slot = {
   },
   {
     3,
-    64,
+    4,
   },
   {
     3,
@@ -169,7 +153,22 @@ slot = {
   },
   {
     3,
-    1,
+    64,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    3,
+  },
+  {
+    [ 2 ] = 0,
   },
 }
 extraDropItems = false
@@ -178,7 +177,7 @@ careAboutResources = true
 goLeftNotRight = false
 startupRename = "oldStartup.quarry"
 originalDay = 13
-diff = 0
+diff = 3
 uniqueExtras = 8
 initialTypes = {
   1,
@@ -189,7 +188,7 @@ excessFuelAmount = inf
 specialSlots = {
   explicit = {},
 }
-moved = 1845
+moved = 2135
 doCheckFuel = false
 enderChest = false
 atChest = false
@@ -198,16 +197,16 @@ chestFull = false
 events = {
   {
     "goto",
-    7,
-    3,
-    56,
-    0,
+    4,
+    9,
+    65,
+    2,
   },
   {
     "goto",
     1,
     1,
-    56,
+    65,
     0,
   },
   {
@@ -233,11 +232,11 @@ events = {
   },
 }
 saveFile = "Civil_Quarry_Restore"
-xPos = 0
+xPos = 1
 inverted = false
 fuelLevel = 4330
 compareChest = false
 quadEnabled = false
 maxTries = 200
 doCheckFuel = false
-fuelLevel = 4215
+fuelLevel = 3809
