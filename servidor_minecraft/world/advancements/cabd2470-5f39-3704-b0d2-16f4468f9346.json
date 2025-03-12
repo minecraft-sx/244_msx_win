@@ -1560,6 +1560,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2025-03-12 03:26:04 +0000"
@@ -1584,6 +1590,12 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/turtle_normal_overlays/turtle_rainbow_overlay": {
+    "criteria": {
+      "has_turtle": "2025-03-12 04:01:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2025-03-12 03:47:20 +0000"
@@ -1599,6 +1611,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2025-03-12 03:40:36 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_normal": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
     },
     "done": true
   },
@@ -1674,6 +1692,18 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/printer": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-12 03:26:04 +0000"
@@ -1683,6 +1713,42 @@
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2025-03-12 03:40:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/cable": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "turtlechargingstation:recipes/misc/turtle_charging_station": {
+    "criteria": {
+      "has_turtle_normal": "2025-03-12 04:01:01 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_advanced": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
     },
     "done": true
   },
@@ -1722,9 +1788,27 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/turtle_normal_overlays/turtle_trans_overlay": {
+    "criteria": {
+      "has_turtle": "2025-03-12 04:01:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-12 03:26:04 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_drive": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
     },
     "done": true
   },
@@ -1740,15 +1824,57 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/turtle_advanced_upgrade": {
+    "criteria": {
+      "has_components": "2025-03-12 04:01:01 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2025-03-12 03:18:29 +0000"
     },
     "done": true
   },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_rainbow_overlay": {
+    "criteria": {
+      "has_turtle": "2025-03-12 04:01:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2025-03-12 03:25:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/speaker": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
     },
     "done": true
   },
@@ -1764,15 +1890,45 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/turtle_normal": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/computer_advanced": {
+    "criteria": {
+      "has_components": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-03-12 03:27:01 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-03-12 03:41:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
     },
     "done": true
   },
@@ -1818,6 +1974,36 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/wired_modem": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_normal": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
+  "turtlechargingstation:recipes/misc/thundercharge_dynamo": {
+    "criteria": {
+      "has_turtle_normal": "2025-03-12 04:01:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-03-12 03:41:18 +0000"
@@ -1830,6 +2016,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal/minecraft/crafting_table": {
+    "criteria": {
+      "has_items": "2025-03-12 04:01:01 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/redstone": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2025-03-12 03:40:37 +0000"
@@ -1839,6 +2043,12 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-03-12 03:25:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
     },
     "done": true
   },
@@ -1878,6 +2088,12 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/computer_normal": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2025-03-12 03:18:22 +0000"
@@ -1896,15 +2112,39 @@
     },
     "done": true
   },
+  "plethora:recipes/misc/neural_connector": {
+    "criteria": {
+      "has_computer_normal": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-12 03:26:04 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced/minecraft/crafting_table": {
+    "criteria": {
+      "has_items": "2025-03-12 04:01:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2025-03-12 03:27:01 +0000"
+    },
+    "done": true
+  },
+  "plethora:recipes/misc/redstone_integrator": {
+    "criteria": {
+      "has_computer_normal": "2025-03-12 04:00:22 +0000"
     },
     "done": true
   },
@@ -1938,9 +2178,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_trans_overlay": {
+    "criteria": {
+      "has_turtle": "2025-03-12 04:01:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2025-03-12 03:27:01 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_advanced": {
+    "criteria": {
+      "has_computer": "2025-03-12 04:00:22 +0000"
     },
     "done": true
   },
@@ -1962,6 +2220,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
+    },
+    "done": true
+  },
   "betterdungeons:all_dungeons": {
     "criteria": {
       "in_better_spider_dungeon": "2025-03-12 03:31:25 +0000"
@@ -1977,6 +2241,12 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-03-12 03:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
     },
     "done": true
   },
@@ -2001,6 +2271,12 @@
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-03-12 03:25:50 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/computer_advanced_upgrade": {
+    "criteria": {
+      "has_components": "2025-03-12 04:00:22 +0000"
     },
     "done": true
   },
@@ -2046,6 +2322,18 @@
     },
     "done": true
   },
+  "plethora:recipes/misc/manipulator_mark_2": {
+    "criteria": {
+      "has_computer_normal": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "plethora:recipes/misc/manipulator_mark_1": {
+    "criteria": {
+      "has_computer_normal": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-03-12 03:27:01 +0000"
@@ -2070,9 +2358,33 @@
     },
     "done": true
   },
+  "plethora:recipes/misc/neural_interface": {
+    "criteria": {
+      "has_computer_normal": "2025-03-12 04:00:22 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced/minecraft/diamond_pickaxe": {
+    "criteria": {
+      "has_items": "2025-03-12 04:01:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-03-12 03:25:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-03-12 03:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-03-12 03:59:10 +0000"
     },
     "done": true
   },
