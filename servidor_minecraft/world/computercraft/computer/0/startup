@@ -17,7 +17,7 @@ if fs.exists("Civil_Quarry_Restore") then
     if event == "key" then break end
   end
   if event == "timer" then
-    os.run({},"cavar.lua","-resume")
+    os.run({},"quarry.lua","-resume")
   else
 
     deleteStuff()
