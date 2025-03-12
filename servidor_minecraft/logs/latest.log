@@ -1,0 +1,448 @@
+[01:44:48] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[01:44:48] [ForkJoinPool-1-worker-1/WARN]: Mod incapacitated uses the version 1.9.3LTS which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3LTS'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:44:48] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[01:44:49] [main/INFO]: Loading 155 mods:
+	- ad_astra 1.15.20
+	   \-- javazoom_jlayer 1.0.1
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- argonauts 1.0.10
+	   \-- placeholder-api 2.1.1+1.20
+	- athena 3.1.2
+	- balm-fabric 7.3.18
+	   \-- kuma_api 20.1.9-SNAPSHOT
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.20-Fabric-4.0.4
+	- betterendisland 1.20-Fabric-2.0.6
+	- betterfortresses 1.20-Fabric-2.0.6
+	- betterjungletemples 1.20-Fabric-2.0.5
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- betterwitchhuts 1.20-Fabric-3.0.3
+	- biomesoplenty 19.0.0.94
+	- botarium 2.3.4
+	   \-- team_reborn_energy 3.0.0
+	- cadmus 1.0.8
+	   \-- common-protection-api 1.0.0
+	- camerapture 1.9.1
+	   \-- io_github_darkxanter_webp-imageio 0.3.2
+	- clumps 12.0.0.4
+	- comforts 6.4.0+1.20.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- computercraft 1.111.0
+	   |-- cc_tweaked_cobalt 0.9.3
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   |-- com_jcraft_jzlib 1.1.3
+	   |-- io_netty_netty-codec-http 4.1.82
+	   |-- io_netty_netty-codec-socks 4.1.82
+	   \-- io_netty_netty-handler-proxy 4.1.82
+	- dungeons_arise 2.1.57
+	- fabric-api 0.92.3+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.65+df3654b377
+	   |-- fabric-content-registries-v0 4.0.12+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.1+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.5+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.3+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.13+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.2+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.46+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.51+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.12+13a40c6677
+	   |-- fabric-networking-v0 0.3.52+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.4+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.22+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.4+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.11+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.31+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.13.1+kotlin.2.1.10
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.10
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.1
+	- glitchcore 0.0.1.1
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- incapacitated 1.9.3LTS
+	   |-- cardinal-components-base 5.2.2
+	   \-- cardinal-components-entity 5.2.2
+	- inventorysorter 1.9.0-1.20
+	   \-- kyrptconfig 1.5.6-1.20
+	- ironchest 2.0.2
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+	- jade 11.11.0+fabric
+	- java 17
+	- lithium 0.11.3
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- modernfix 5.20.2+mc1.20.1
+	- playerladder 0.6.0-1.20
+	- plethora 1.11.7
+	   |-- cloth-config 11.1.118
+	   |    \-- cloth-basic-math 0.6.1
+	   |-- cloth-utils-v1 4.0.65
+	   |-- com_typesafe_config 1.4.2
+	   |-- io_leangen_geantyref_geantyref 1.3.13
+	   |-- modmenu 7.0.1
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   |-- org_spongepowered_configurate-hocon 4.1.2
+	   \-- sc-library 1.5.0
+	- powah 5.0.8
+	- resourcefulconfig 2.1.3
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- sit-oth3r 1.2.2+1.20.1
+	- syncmatica 1.20.1-0.3.11
+	- tacz 1.0.2-hotfix3
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- com_github_286799714_luaj_luaj-core 3.0.3
+	   |-- com_github_286799714_luaj_luaj-jse 3.0.3
+	   |-- controlling 12.0.2
+	   |-- mkb 1.2.0
+	   |-- org_apache_commons_commons-math3 3.6.1
+	   |-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_entity 2.3.4+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.4+1.20.1
+	   |-- porting_lib_tags 3.0
+	   \-- searchables 1.0.3
+	- telluriumforge 1.3.2-1.20.1-fabric
+	- terrablender 3.0.1.10
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- toms_peripherals 1.3.0
+	- trashslot 15.1.1
+	- travelersbackpack 9.1.29
+	   \-- reach-entity-attributes 2.4.0
+	- trinkets 3.7.2
+	- turtlechargingstation 1.5.4
+	   \-- team_reborn_energy 3.0.0
+	- vc_gliders 1.1.6
+	   |-- palladiumcore 1.20-2.0.0.0
+	   \-- player-animator 1.0.2-rc1+1.20
+	- veinmining 1.5.0+1.20.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- yungsapi 1.20-Fabric-4.0.6
+	   \-- org_javassist_javassist 3.29.2-GA
+	- yungsbridges 1.20-Fabric-4.0.3
+	- yungsextras 1.20-Fabric-4.0.3
+[01:44:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/244_msx_win/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:44:49] [main/INFO]: Compatibility level set to JAVA_17
+[01:44:49] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 1 override(s) found
+[01:44:49] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:44:49] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 64 options available, 0 override(s) found
+[01:44:49] [main/INFO]: Applying Nashorn fix
+[01:44:49] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:44:49] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:44:50] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[01:44:50] [main/WARN]: Error loading class: net/minecraft/class_635 (java.lang.ClassNotFoundException: net/minecraft/class_635)
+[01:44:50] [main/WARN]: @Mixin target net.minecraft.class_635 was not found tacz.mixins.json:client.network.ClientLoginNetworkHandlerAccessor from mod tacz
+[01:44:50] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[01:44:50] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[01:44:50] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[01:44:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:44:51] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bpj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:44:53] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[01:44:53] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[01:44:53] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[01:44:54] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin from mod palladiumcore::handler$bod000$palladiumcore$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:44:55] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[01:44:55] [main/INFO]: Vanilla bootstrap took 3452 milliseconds
+[01:44:57] [main/INFO]: Reflections took 35 ms to scan 1 urls, producing 1 keys and 2 values
+[01:44:57] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[01:44:57] [main/INFO]: Creating directory for additional Better Desert Temples configuration at /workspaces/244_msx_win/servidor_minecraft/config/betterdeserttemples/fabric-1_20
+[01:44:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[01:44:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[01:44:57] [main/INFO]: Creating directory for additional Better Nether Fortresses configuration at /workspaces/244_msx_win/servidor_minecraft/config/betterfortresses/fabric-1_20
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[01:44:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:44:57] [main/INFO]: Creating directory for additional Better Strongholds configuration at /workspaces/244_msx_win/servidor_minecraft/config/betterstrongholds/fabric-1_20
+[01:44:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[01:44:57] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[01:44:58] [main/INFO]: Bypassed Mojang DFU
+[01:44:58] [main/INFO]: Instantiating Mojang DFU
+[01:44:58] [main/ERROR]: No data fixer registered for anomaly
+[01:44:58] [main/INFO]: Config 'incapacitated' is missing, generating default one...
+[01:44:58] [main/INFO]: [STDOUT]: [inventorysorter]: Unable to find config: blacklist.json5! Creating a default config
+[01:44:59] [main/INFO]: Plethora initializing
+[01:44:59] [main/INFO]: Plethora core initializing
+[01:44:59] [main/INFO]: Beginning Plethora registration
+[01:44:59] [main/WARN]: You're registering a method (getMetadata) targeting the base class (Object). Converters will probably mask the original object: it is recommended that you implement IConverterExcludeMethod to avoid this.
+[01:44:59] [main/INFO]: Building converter registry
+[01:44:59] [main/INFO]: Building meta registry
+[01:44:59] [main/INFO]: Building method registry
+[01:44:59] [main/INFO]: Updating base costs in configuration file
+[01:44:59] [main/INFO]: Registering C2S receiver with id powah:packet
+[01:44:59] [main/INFO]: Creating new `server-config.json`
+[01:44:59] [main/INFO]: Creating new `sitting-config.json`
+[01:44:59] [main/WARN]: Configuration file ./config/tacz-common.toml is not correct. Correcting
+[01:44:59] [main/WARN]: Incorrect key gun was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:44:59] [main/WARN]: Incorrect key gun.DefaultGunFireSoundDistance was corrected from null to its default, 64. 
+[01:44:59] [main/WARN]: Incorrect key gun.DefaultGunOtherSoundDistance was corrected from null to its default, 16. 
+[01:44:59] [main/WARN]: Incorrect key gun.CreativePlayerConsumeAmmo was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key gun.AutoReloadWhenRespawn was corrected from null to its default, false. 
+[01:44:59] [main/WARN]: Incorrect key ammo was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:44:59] [main/WARN]: Incorrect key ammo.ExplosiveAmmoDestroysBlocks was corrected from null to its default, false. 
+[01:44:59] [main/WARN]: Incorrect key ammo.ExplosiveAmmoFire was corrected from null to its default, false. 
+[01:44:59] [main/WARN]: Incorrect key ammo.ExplosiveAmmoKnockBack was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key ammo.ExplosiveAmmoVisibleDistance was corrected from null to its default, 192. 
+[01:44:59] [main/WARN]: Incorrect key ammo.PassThroughBlocks was corrected from null to its default, []. 
+[01:44:59] [main/WARN]: Incorrect key ammo.DestroyGlass was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key ammo.IgniteBlock was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key ammo.IgniteEntity was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key other was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:44:59] [main/WARN]: Incorrect key other.DefaultPackDebug was corrected from null to its default, false. 
+[01:44:59] [main/WARN]: Incorrect key other.TargetSoundDistance was corrected from null to its default, 128. 
+[01:44:59] [main/WARN]: Incorrect key other.ServerHitboxOffset was corrected from null to its default, 3.0. 
+[01:44:59] [main/WARN]: Incorrect key other.ServerHitboxLatencyFix was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key other.ServerHitboxLatencyMaxSaveMs was corrected from null to its default, 1000.0. 
+[01:44:59] [main/WARN]: Incorrect key other.ClientGunPackDownloadUrls was corrected from null to its default, []. 
+[01:44:59] [main/WARN]: Configuration file ./config/tacz-client.toml is not correct. Correcting
+[01:44:59] [main/WARN]: Incorrect key key was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:44:59] [main/WARN]: Incorrect key key.HoldToAim was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key render was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:44:59] [main/WARN]: Incorrect key render.GunLodRenderDistance was corrected from null to its default, 0. 
+[01:44:59] [main/WARN]: Incorrect key render.BulletHoleParticleLife was corrected from null to its default, 400. 
+[01:44:59] [main/WARN]: Incorrect key render.BulletHoleParticleFadeThreshold was corrected from null to its default, 0.98. 
+[01:44:59] [main/WARN]: Incorrect key render.CrosshairType was corrected from null to its default, DOT_1. 
+[01:44:59] [main/WARN]: Incorrect key render.HitMarketStartPosition was corrected from null to its default, 4.0. 
+[01:44:59] [main/WARN]: Incorrect key render.HeadShotDebugHitbox was corrected from null to its default, false. 
+[01:44:59] [main/WARN]: Incorrect key render.GunHUDEnable was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key render.KillAmountEnable was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key render.KillAmountDurationSecond was corrected from null to its default, 3.0. 
+[01:44:59] [main/WARN]: Incorrect key render.TargetRenderDistance was corrected from null to its default, 128. 
+[01:44:59] [main/WARN]: Incorrect key render.FirstPersonBulletTracerEnable was corrected from null to its default, true. 
+[01:44:59] [main/WARN]: Incorrect key render.DisableInteractHudText was corrected from null to its default, false. 
+[01:44:59] [main/WARN]: Incorrect key render.DamageCounterResetTime was corrected from null to its default, 2000. 
+[01:44:59] [main/WARN]: Incorrect key Zoom was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:44:59] [main/WARN]: Incorrect key Zoom.ScreenDistanceCoefficient was corrected from null to its default, 1.33. 
+[01:44:59] [main/WARN]: Incorrect key Zoom.ZoomSensitivityBaseMultiplier was corrected from null to its default, 1.0. 
+[01:44:59] [main/INFO]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[01:44:59] [main/INFO]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[01:44:59] [main/INFO]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[01:44:59] [main/INFO]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[01:44:59] [main/INFO]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[01:44:59] [main/INFO]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[01:44:59] [main/INFO]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[01:44:59] [main/INFO]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[01:45:00] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[01:45:00] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[01:45:00] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[01:45:00] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[01:45:00] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[01:45:00] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[01:45:00] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[01:45:00] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
+[01:45:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[01:45:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[01:45:00] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[01:45:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[01:45:00] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[01:45:00] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[01:45:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:45:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:45:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:45:00] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[01:45:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:45:03] [main/INFO]: Loaded 15 recipes
+[01:45:03] [main/INFO]: Loaded 2456 advancements
+[01:45:03] [main/INFO]: Loaded 14 turtle upgrades
+[01:45:03] [main/INFO]: Registering pocket module plethora:kinetic with crafting item 1 module_kinetic
+[01:45:03] [main/INFO]: Registering pocket module plethora:introspection with crafting item 1 module_introspection
+[01:45:03] [main/INFO]: Registering pocket module plethora:scanner with crafting item 1 module_scanner
+[01:45:03] [main/INFO]: Registering pocket module plethora:sensor with crafting item 1 module_sensor
+[01:45:03] [main/INFO]: Registering pocket module plethora:keyboard with crafting item 1 module_keyboard
+[01:45:03] [main/INFO]: Registering pocket module plethora:laser with crafting item 1 module_laser
+[01:45:03] [main/INFO]: Loaded 9 pocket computer upgrades
+[01:45:03] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[01:45:03] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[01:45:03] [main/INFO]: Applied 1269 biome modifications to 144 of 144 new biomes in 70.47 ms
+[01:45:03] [Server thread/WARN]: Configuration file ./config/tacz-server.toml is not correct. Correcting
+[01:45:03] [Server thread/WARN]: Incorrect key interact_key was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:45:03] [Server thread/WARN]: Incorrect key interact_key.InteractKeyWhitelistBlocks was corrected from null to its default, []. 
+[01:45:03] [Server thread/WARN]: Incorrect key interact_key.InteractKeyWhitelistEntities was corrected from null to its default, []. 
+[01:45:03] [Server thread/WARN]: Incorrect key interact_key.InteractKeyBlacklistBlocks was corrected from null to its default, []. 
+[01:45:03] [Server thread/WARN]: Incorrect key interact_key.InteractKeyBlacklistEntities was corrected from null to its default, []. 
+[01:45:03] [Server thread/WARN]: Incorrect key base_multiplier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:45:03] [Server thread/WARN]: Incorrect key base_multiplier.DamageBaseMultiplier was corrected from null to its default, 1.0. 
+[01:45:03] [Server thread/WARN]: Incorrect key base_multiplier.ArmorIgnoreBaseMultiplier was corrected from null to its default, 1.0. 
+[01:45:03] [Server thread/WARN]: Incorrect key base_multiplier.HeadShotBaseMultiplier was corrected from null to its default, 1.0. 
+[01:45:03] [Server thread/WARN]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01:45:03] [Server thread/WARN]: Incorrect key misc.HeadShotAABB was corrected from null to its default, []. 
+[01:45:03] [Server thread/WARN]: Incorrect key misc.AmmoBoxStackSize was corrected from null to its default, 3. 
+[01:45:03] [Server thread/WARN]: Incorrect key misc.ClientGunPackDownloadUrls was corrected from null to its default, []. 
+[01:45:03] [Server thread/INFO]: Loaded Tom's Peripherals config file toms_peripherals-server.toml
+[01:45:03] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
+[01:45:03] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
+[01:45:03] [Server thread/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[01:45:04] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[01:45:04] [Thread-3/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[01:45:04] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[01:45:04] [Server thread/INFO]: Loading properties
+[01:45:04] [Server thread/INFO]: Default game type: SURVIVAL
+[01:45:04] [Server thread/INFO]: Generating keypair
+[01:45:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:45:04] [Server thread/INFO]: Using epoll channel type
+[01:45:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:45:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:45:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:45:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:45:04] [Server thread/INFO]: Preparing level "world"
+[01:45:04] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[01:45:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:45:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:45:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:45:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:45:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:45:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:45:25] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[01:45:26] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[01:45:26] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[01:45:27] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[01:45:27] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[01:45:28] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[01:45:28] [Worker-Main-3/INFO]: Preparing spawn area: 6%
+[01:45:29] [Worker-Main-3/INFO]: Preparing spawn area: 7%
+[01:45:29] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[01:45:30] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[01:45:30] [Worker-Main-3/INFO]: Preparing spawn area: 11%
+[01:45:31] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[01:45:31] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[01:45:32] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[01:45:32] [Worker-Main-1/INFO]: Preparing spawn area: 16%
+[01:45:33] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[01:45:33] [Worker-Main-3/INFO]: Preparing spawn area: 20%
+[01:45:34] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[01:45:34] [Worker-Main-1/INFO]: Preparing spawn area: 23%
+[01:45:35] [Worker-Main-3/INFO]: Preparing spawn area: 25%
+[01:45:35] [Worker-Main-1/INFO]: Preparing spawn area: 27%
+[01:45:36] [Worker-Main-2/INFO]: Preparing spawn area: 29%
+[01:45:36] [Worker-Main-2/INFO]: Preparing spawn area: 31%
+[01:45:37] [Worker-Main-2/INFO]: Preparing spawn area: 32%
+[01:45:37] [Worker-Main-2/INFO]: Preparing spawn area: 32%
+[01:45:38] [Worker-Main-1/INFO]: Preparing spawn area: 34%
+[01:45:38] [Worker-Main-3/INFO]: Preparing spawn area: 36%
+[01:45:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:39] [Worker-Main-2/INFO]: Preparing spawn area: 38%
+[01:45:39] [Worker-Main-2/INFO]: Preparing spawn area: 40%
+[01:45:40] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[01:45:40] [Worker-Main-3/INFO]: Preparing spawn area: 44%
+[01:45:41] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[01:45:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[01:45:41] [Worker-Main-3/INFO]: Preparing spawn area: 48%
+[01:45:42] [Worker-Main-1/INFO]: Preparing spawn area: 50%
+[01:45:42] [Worker-Main-2/INFO]: Preparing spawn area: 52%
+[01:45:43] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[01:45:43] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[01:45:44] [Worker-Main-3/INFO]: Preparing spawn area: 57%
+[01:45:44] [Worker-Main-1/INFO]: Preparing spawn area: 59%
+[01:45:45] [Worker-Main-3/INFO]: Preparing spawn area: 62%
+[01:45:45] [Worker-Main-2/INFO]: Preparing spawn area: 64%
+[01:45:46] [Worker-Main-2/INFO]: Preparing spawn area: 67%
+[01:45:46] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[01:45:47] [Worker-Main-2/INFO]: Preparing spawn area: 69%
+[01:45:47] [Worker-Main-2/INFO]: Preparing spawn area: 72%
+[01:45:48] [Worker-Main-1/INFO]: Preparing spawn area: 75%
+[01:45:48] [Worker-Main-3/INFO]: Preparing spawn area: 77%
+[01:45:49] [Worker-Main-3/INFO]: Preparing spawn area: 81%
+[01:45:49] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[01:45:50] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[01:45:50] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[01:45:51] [Worker-Main-1/INFO]: Preparing spawn area: 88%
+[01:45:51] [Worker-Main-1/INFO]: Preparing spawn area: 90%
+[01:45:52] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[01:45:52] [Worker-Main-2/INFO]: Preparing spawn area: 95%
+[01:45:53] [Worker-Main-3/INFO]: Preparing spawn area: 97%
+[01:45:53] [Server thread/INFO]: Time elapsed: 30392 ms
+[01:45:53] [Server thread/INFO]: Done (49.196s)! For help, type "help"
+[01:45:53] [Server thread/WARN]: Dedicated server took 66.584 seconds to load
+[01:45:53] [Server thread/INFO]: Start loading plugin from Balm
+[01:45:53] [Server thread/INFO]: Start loading plugin from Camerapture
+[01:45:53] [Server thread/INFO]: Start loading plugin from Jade
+[01:45:53] [Server thread/INFO]: Start loading plugin from Jade
+[01:45:53] [Server thread/INFO]: Start loading plugin from Jade
+[01:45:53] [Server thread/INFO]: Start loading plugin from Tom's Peripherals
+[01:45:53] [Server thread/INFO]: Server started, resetting shared task runner
+[01:46:44] [Server thread/INFO]: elyxdev[/100.113.222.78:49786] logged in with entity id 354 at (30.5, 72.0, -60.5)
+[01:46:44] [Server thread/INFO]: Syncing config to elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346)
+[01:46:44] [Server thread/INFO]: Loading config from file...
+[01:46:44] [Server thread/INFO]: elyxdev joined the game
+[01:47:01] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
