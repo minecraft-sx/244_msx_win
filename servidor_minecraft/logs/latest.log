@@ -1,8 +1,8 @@
-[02:43:30] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[02:43:31] [ForkJoinPool-1-worker-1/WARN]: Mod incapacitated uses the version 1.9.3LTS which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3LTS'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[02:43:31] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[03:16:43] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[03:16:44] [ForkJoinPool-1-worker-4/WARN]: Mod incapacitated uses the version 1.9.3LTS which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3LTS'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:16:44] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[02:43:31] [main/INFO]: Loading 155 mods:
+[03:16:44] [main/INFO]: Loading 155 mods:
 	- ad_astra 1.15.20
 	   \-- javazoom_jlayer 1.0.1
 	- appleskin 2.5.1+mc1.20
@@ -183,163 +183,143 @@
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
 	- yungsextras 1.20-Fabric-4.0.3
-[02:43:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/244_msx_win/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:43:31] [main/INFO]: Compatibility level set to JAVA_17
-[02:43:32] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 1 override(s) found
-[02:43:32] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:43:32] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 64 options available, 0 override(s) found
-[02:43:32] [main/INFO]: Applying Nashorn fix
-[02:43:32] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:43:32] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:43:33] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[02:43:33] [main/WARN]: Error loading class: net/minecraft/class_635 (java.lang.ClassNotFoundException: net/minecraft/class_635)
-[02:43:33] [main/WARN]: @Mixin target net.minecraft.class_635 was not found tacz.mixins.json:client.network.ClientLoginNetworkHandlerAccessor from mod tacz
-[02:43:33] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[02:43:33] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[02:43:33] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[02:43:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[02:43:35] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bpj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[02:43:37] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[02:43:37] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[02:43:37] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[02:43:38] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin from mod palladiumcore::handler$bod000$palladiumcore$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[02:43:40] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[02:43:41] [main/INFO]: Vanilla bootstrap took 5077 milliseconds
-[02:43:43] [main/INFO]: Reflections took 58 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:43] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:43] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
-[02:43:43] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[02:43:43] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:43] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:43] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:43:43] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:43:43] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[02:43:43] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[02:43:44] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[02:43:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[02:43:44] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:43:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:43:44] [main/INFO]: Bypassed Mojang DFU
-[02:43:44] [main/INFO]: Instantiating Mojang DFU
-[02:43:45] [main/ERROR]: No data fixer registered for anomaly
-[02:43:46] [main/INFO]: Plethora initializing
-[02:43:46] [main/INFO]: Plethora core initializing
-[02:43:46] [main/INFO]: Beginning Plethora registration
-[02:43:46] [main/WARN]: You're registering a method (getMetadata) targeting the base class (Object). Converters will probably mask the original object: it is recommended that you implement IConverterExcludeMethod to avoid this.
-[02:43:46] [main/INFO]: Building converter registry
-[02:43:46] [main/INFO]: Building meta registry
-[02:43:46] [main/INFO]: Building method registry
-[02:43:46] [main/INFO]: Updating base costs in configuration file
-[02:43:46] [main/INFO]: Registering C2S receiver with id powah:packet
-[02:43:47] [main/INFO]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[02:43:47] [main/INFO]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[02:43:47] [main/INFO]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[02:43:47] [main/INFO]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[02:43:47] [main/INFO]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[02:43:47] [main/INFO]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[02:43:47] [main/INFO]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[02:43:47] [main/INFO]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
-[02:43:48] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[02:43:48] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[02:43:48] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[02:43:48] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[02:43:48] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[02:43:48] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[02:43:48] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[02:43:49] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[02:43:49] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[02:43:49] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[02:43:49] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[02:43:49] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[02:43:49] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[02:43:49] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:49] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:49] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:49] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:43:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:43:50] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[02:43:52] [main/INFO]: Loaded 15 recipes
-[02:43:52] [main/INFO]: Loaded 2456 advancements
-[02:43:52] [main/INFO]: Loaded 14 turtle upgrades
-[02:43:52] [main/INFO]: Registering pocket module plethora:kinetic with crafting item 1 module_kinetic
-[02:43:52] [main/INFO]: Registering pocket module plethora:introspection with crafting item 1 module_introspection
-[02:43:52] [main/INFO]: Registering pocket module plethora:scanner with crafting item 1 module_scanner
-[02:43:52] [main/INFO]: Registering pocket module plethora:sensor with crafting item 1 module_sensor
-[02:43:52] [main/INFO]: Registering pocket module plethora:keyboard with crafting item 1 module_keyboard
-[02:43:52] [main/INFO]: Registering pocket module plethora:laser with crafting item 1 module_laser
-[02:43:52] [main/INFO]: Loaded 9 pocket computer upgrades
-[02:43:52] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[02:43:53] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[02:43:53] [main/INFO]: Applied 1269 biome modifications to 144 of 144 new biomes in 70.66 ms
-[02:43:53] [Server thread/INFO]: Loaded Tom's Peripherals config file toms_peripherals-server.toml
-[02:43:53] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
-[02:43:53] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
-[02:43:53] [Server thread/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
-[02:43:53] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[02:43:53] [Server thread/INFO]: Loading properties
-[02:43:53] [Server thread/INFO]: Default game type: SURVIVAL
-[02:43:53] [Server thread/INFO]: Generating keypair
-[02:43:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:43:53] [Server thread/INFO]: Using epoll channel type
-[02:43:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:43:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:43:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:43:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:43:53] [Server thread/INFO]: Preparing level "world"
-[02:43:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:43:54] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[02:43:56] [Server thread/INFO]: Preparing spawn area: 0%
-[02:43:56] [Server thread/INFO]: Preparing spawn area: 0%
-[02:43:56] [Server thread/INFO]: Preparing spawn area: 0%
-[02:43:56] [Server thread/INFO]: Preparing spawn area: 0%
-[02:43:56] [Server thread/INFO]: Preparing spawn area: 0%
-[02:43:56] [Server thread/INFO]: Preparing spawn area: 0%
-[02:43:57] [Server thread/INFO]: Time elapsed: 3173 ms
-[02:43:57] [Server thread/INFO]: Done (3.631s)! For help, type "help"
-[02:43:57] [Server thread/WARN]: Dedicated server took 28.677 seconds to load
-[02:43:57] [Server thread/INFO]: Start loading plugin from Balm
-[02:43:57] [Server thread/INFO]: Start loading plugin from Camerapture
-[02:43:57] [Server thread/INFO]: Start loading plugin from Jade
-[02:43:57] [Server thread/INFO]: Start loading plugin from Jade
-[02:43:57] [Server thread/INFO]: Start loading plugin from Jade
-[02:43:57] [Server thread/INFO]: Start loading plugin from Tom's Peripherals
-[02:43:57] [Server thread/INFO]: Server started, resetting shared task runner
-[02:44:04] [Server thread/INFO]: elyxdev[/100.113.222.78:50452] logged in with entity id 171 at (-550.5, 86.95, -478.5)
-[02:44:04] [Server thread/INFO]: Syncing config to elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346)
-[02:44:04] [Server thread/INFO]: Loading config from file...
-[02:44:05] [Server thread/INFO]: elyxdev joined the game
-[02:44:05] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_8123['-sit!-entity-'/172, l='ServerLevel[world]', x=-550.50, y=87.30, z=-478.50] as it would cause deadlock
-[02:44:16] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[02:44:22] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
-[02:44:22] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
-[02:44:29] [Server thread/INFO]: M4Z0[/100.90.178.36:52708] logged in with entity id 497 at (-548.4941493168022, 87.5, -482.5005864383804)
-[02:44:29] [Server thread/INFO]: Syncing config to M4Z0 (e8112f16-27a6-3554-a4fa-3be2a6a2817a)
-[02:44:29] [Server thread/INFO]: Loading config from file...
-[02:44:29] [Server thread/INFO]: M4Z0 joined the game
-[02:44:40] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[02:44:47] [Server thread/INFO]: gglancelot[/100.102.121.1:54910] logged in with entity id 619 at (41.869947712974756, 64.0, 69.68729725913701)
-[02:44:47] [Server thread/INFO]: Syncing config to gglancelot (c50d39f9-10c8-3a68-bf37-fc2c7eafdb0b)
-[02:44:47] [Server thread/INFO]: Loading config from file...
-[02:44:47] [Server thread/INFO]: gglancelot joined the game
-[02:45:01] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[02:50:37] [Server thread/INFO]: elyxdev has made the advancement [Suit Up]
-[02:52:17] [Server thread/INFO]: elyxdev is incapacitated!
-[02:52:41] [Server thread/INFO]: elyxdev has been revived!
-[02:53:36] [Server thread/INFO]: gglancelot is incapacitated!
-[02:55:16] [Server thread/INFO]: gglancelot was killed by magic and bled out
-[02:55:44] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[02:55:44] [Server thread/INFO]: <--[HERE]
-[02:57:28] [Server thread/INFO]: [Not Secure] <M4Z0> xaero-waypoint:Base (ajena):B:-548:67:-471:10:false:0:Internal-overworld-waypoints
-[02:59:26] [Server thread/INFO]: M4Z0 is incapacitated!
-[02:59:53] [Server thread/INFO]: M4Z0 has been revived!
-[02:59:58] [Server thread/INFO]: M4Z0 is incapacitated!
-[03:00:29] [Server thread/INFO]: M4Z0 has been revived!
-[03:02:38] [Server thread/INFO]: M4Z0 is incapacitated!
-[03:02:48] [Server thread/INFO]: M4Z0 has been revived!
-[03:03:20] [Server thread/INFO]: M4Z0 hit the ground too hard
-[03:03:20] [Server thread/INFO]: elyxdev is incapacitated!
-[03:03:27] [Server thread/INFO]: elyxdev hit the ground too hard and bled out
+[03:16:44] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/244_msx_win/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:16:44] [main/INFO]: Compatibility level set to JAVA_17
+[03:16:45] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 1 override(s) found
+[03:16:45] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:16:45] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 64 options available, 0 override(s) found
+[03:16:45] [main/INFO]: Applying Nashorn fix
+[03:16:45] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:16:45] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:16:46] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[03:16:46] [main/WARN]: Error loading class: net/minecraft/class_635 (java.lang.ClassNotFoundException: net/minecraft/class_635)
+[03:16:46] [main/WARN]: @Mixin target net.minecraft.class_635 was not found tacz.mixins.json:client.network.ClientLoginNetworkHandlerAccessor from mod tacz
+[03:16:46] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[03:16:46] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[03:16:46] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[03:16:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:16:47] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bpj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03:16:49] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[03:16:49] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[03:16:49] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[03:16:50] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin from mod palladiumcore::handler$bod000$palladiumcore$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03:16:52] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[03:16:53] [main/INFO]: Vanilla bootstrap took 4716 milliseconds
+[03:16:55] [main/INFO]: Reflections took 69 ms to scan 1 urls, producing 1 keys and 2 values
+[03:16:55] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[03:16:56] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 3 values
+[03:16:56] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[03:16:56] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 2 values
+[03:16:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[03:16:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[03:16:56] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[03:16:57] [main/INFO]: Bypassed Mojang DFU
+[03:16:57] [main/INFO]: Instantiating Mojang DFU
+[03:16:57] [main/ERROR]: No data fixer registered for anomaly
+[03:16:58] [main/INFO]: Plethora initializing
+[03:16:58] [main/INFO]: Plethora core initializing
+[03:16:58] [main/INFO]: Beginning Plethora registration
+[03:16:59] [main/WARN]: You're registering a method (getMetadata) targeting the base class (Object). Converters will probably mask the original object: it is recommended that you implement IConverterExcludeMethod to avoid this.
+[03:16:59] [main/INFO]: Building converter registry
+[03:16:59] [main/INFO]: Building meta registry
+[03:16:59] [main/INFO]: Building method registry
+[03:16:59] [main/INFO]: Updating base costs in configuration file
+[03:16:59] [main/INFO]: Registering C2S receiver with id powah:packet
+[03:16:59] [main/INFO]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[03:16:59] [main/INFO]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[03:16:59] [main/INFO]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[03:16:59] [main/INFO]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[03:16:59] [main/INFO]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[03:16:59] [main/INFO]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[03:16:59] [main/INFO]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[03:16:59] [main/INFO]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[03:17:01] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[03:17:01] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[03:17:01] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[03:17:01] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[03:17:01] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[03:17:01] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[03:17:01] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[03:17:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[03:17:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[03:17:01] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[03:17:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[03:17:01] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 4 values
+[03:17:01] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[03:17:01] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[03:17:01] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[03:17:01] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[03:17:01] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[03:17:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:17:03] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[03:17:05] [main/INFO]: Loaded 15 recipes
+[03:17:05] [main/INFO]: Loaded 2456 advancements
+[03:17:05] [main/INFO]: Loaded 14 turtle upgrades
+[03:17:05] [main/INFO]: Registering pocket module plethora:kinetic with crafting item 1 module_kinetic
+[03:17:05] [main/INFO]: Registering pocket module plethora:introspection with crafting item 1 module_introspection
+[03:17:05] [main/INFO]: Registering pocket module plethora:scanner with crafting item 1 module_scanner
+[03:17:05] [main/INFO]: Registering pocket module plethora:sensor with crafting item 1 module_sensor
+[03:17:05] [main/INFO]: Registering pocket module plethora:keyboard with crafting item 1 module_keyboard
+[03:17:05] [main/INFO]: Registering pocket module plethora:laser with crafting item 1 module_laser
+[03:17:05] [main/INFO]: Loaded 9 pocket computer upgrades
+[03:17:05] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[03:17:06] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[03:17:06] [main/INFO]: Applied 1269 biome modifications to 144 of 144 new biomes in 107.9 ms
+[03:17:06] [Server thread/INFO]: Loaded Tom's Peripherals config file toms_peripherals-server.toml
+[03:17:06] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
+[03:17:06] [Thread-3/INFO]: Tom's Peripherals config just got changed on the file system!
+[03:17:06] [Server thread/INFO]: Loading config from ./world/serverconfig/computercraft-server.toml
+[03:17:06] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:17:06] [Server thread/INFO]: Loading properties
+[03:17:06] [Server thread/INFO]: Default game type: SURVIVAL
+[03:17:06] [Server thread/INFO]: Generating keypair
+[03:17:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:17:06] [Server thread/INFO]: Using epoll channel type
+[03:17:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:17:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:17:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:17:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:17:07] [Server thread/INFO]: Preparing level "world"
+[03:17:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:17:07] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:17:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:17:11] [Server thread/INFO]: Time elapsed: 3231 ms
+[03:17:11] [Server thread/INFO]: Done (3.972s)! For help, type "help"
+[03:17:11] [Server thread/WARN]: Dedicated server took 29.042 seconds to load
+[03:17:11] [Server thread/INFO]: Start loading plugin from Balm
+[03:17:11] [Server thread/INFO]: Start loading plugin from Camerapture
+[03:17:11] [Server thread/INFO]: Start loading plugin from Jade
+[03:17:11] [Server thread/INFO]: Start loading plugin from Jade
+[03:17:11] [Server thread/INFO]: Start loading plugin from Jade
+[03:17:11] [Server thread/INFO]: Start loading plugin from Tom's Peripherals
+[03:17:11] [Server thread/INFO]: Server started, resetting shared task runner
+[03:17:38] [Server thread/INFO]: elyxdev[/100.113.222.78:51044] logged in with entity id 55 at (-543.6999999880791, 69.0, -492.48750001192093)
+[03:17:38] [Server thread/INFO]: Syncing config to elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346)
+[03:17:38] [Server thread/INFO]: Loading config from file...
+[03:17:38] [Server thread/INFO]: elyxdev joined the game
+[03:17:48] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
+[03:18:35] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
+[03:18:35] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
+[03:19:09] [Server thread/INFO]: M4Z0[/100.90.178.36:52807] logged in with entity id 578 at (-521.1486157970722, 52.0, -366.03163852075926)
+[03:19:09] [Server thread/INFO]: Syncing config to M4Z0 (e8112f16-27a6-3554-a4fa-3be2a6a2817a)
+[03:19:09] [Server thread/INFO]: Loading config from file...
+[03:19:09] [Server thread/INFO]: M4Z0 joined the game
+[03:19:21] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
+[03:20:11] [Server thread/INFO]: M4Z0 has made the advancement [Getting an Upgrade]
+[03:21:34] [Server thread/INFO]: [Not Secure] <elyxdev> compressor
+[03:24:02] [Server thread/INFO]: [Not Secure] <elyxdev> Block scanner
