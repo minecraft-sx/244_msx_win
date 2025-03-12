@@ -566,3 +566,16 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 [22:14:51] [Server thread/INFO]: M4Z0 fell from a high place
 [22:15:03] [Server thread/INFO]: elyxdev has made the advancement [Diamonds!]
 [22:24:59] [Server thread/INFO]: elyxdev has made the advancement [Smart Blasting]
+[22:29:29] [Server thread/INFO]: [elyxdev: elyxdev started riding M4Z0]
+[22:30:20] [Server thread/INFO]: [Not Secure] <elyxdev> ride M4Z0 mount elyxdev
+[22:31:00] [Server thread/INFO]: [elyxdev: M4Z0 started riding elyxdev]
+[22:31:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:31:18] [Server thread/INFO]: ops<--[HERE]
+[22:31:26] [Server thread/INFO]: Made elyxdev no longer a server operator
+[22:33:04] [Server thread/INFO]: M4Z0 is incapacitated!
+[22:33:05] [Server thread/INFO]: M4Z0 was slain by elyxdev and bled out
+[22:34:57] [Server thread/INFO]: elyxdev is incapacitated!
+[22:35:04] [Server thread/INFO]: elyxdev drowned and bled out
+[22:36:56] [Server thread/INFO]: elyxdev is incapacitated!
+[22:37:08] [Server thread/INFO]: elyxdev hit the ground too hard and bled out
+[22:45:09] [Server thread/INFO]: elyxdev tried to swim in lava

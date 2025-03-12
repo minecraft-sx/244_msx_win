@@ -27,12 +27,14 @@
     "criteria": {
       "shrubland": "2025-03-12 01:56:17 +0000",
       "rocky_shrubland": "2025-03-12 01:58:03 +0000",
+      "mystic_grove": "2025-03-12 22:29:29 +0000",
       "overgrown_greens": "2025-03-12 01:58:34 +0000",
       "coniferous_forest": "2025-03-12 02:04:30 +0000",
       "redwood_forest": "2025-03-12 02:01:52 +0000",
       "fir_clearing": "2025-03-12 02:04:59 +0000",
       "grassland": "2025-03-12 01:46:45 +0000",
-      "prairie": "2025-03-12 02:04:27 +0000"
+      "prairie": "2025-03-12 02:04:27 +0000",
+      "ominous_woods": "2025-03-12 22:43:14 +0000"
     },
     "done": false
   },
@@ -45,8 +47,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:birch_forest": "2025-03-12 02:01:17 +0000",
+      "minecraft:beach": "2025-03-12 22:41:34 +0000",
       "minecraft:dark_forest": "2025-03-12 01:48:48 +0000",
       "minecraft:river": "2025-03-12 01:56:03 +0000",
+      "minecraft:cold_ocean": "2025-03-12 22:43:36 +0000",
       "minecraft:forest": "2025-03-12 02:01:50 +0000",
       "minecraft:plains": "2025-03-12 02:03:47 +0000"
     },
@@ -2732,6 +2736,24 @@
     },
     "done": true
   },
+  "ad_astra:recipes/misc/steel_block": {
+    "criteria": {
+      "has_steel_block": "2025-03-12 22:26:53 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_nugget": {
+    "criteria": {
+      "has_steel_nugget": "2025-03-12 22:26:53 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/alloying/alloying/steel_ingot_from_alloying_iron_ingot_and_coals": {
+    "criteria": {
+      "has_item": "2025-03-12 22:24:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2025-03-12 22:15:03 +0000"
@@ -2747,6 +2769,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2025-03-12 22:15:03 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_ingots": {
+    "criteria": {
+      "has_item": "2025-03-12 22:26:53 +0000"
     },
     "done": true
   },
@@ -2783,6 +2811,12 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2025-03-12 22:15:03 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:smart_blasting": {
+    "criteria": {
+      "has_etrionic_blast_furnace": "2025-03-12 22:24:59 +0000"
     },
     "done": true
   },
