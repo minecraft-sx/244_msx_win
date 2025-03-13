@@ -51,3 +51,39 @@
 [02:09:47] [Server thread/INFO]: Created new backpack backup file for elyxdev with unique ID travelersbackpack.iron_13.03.2025-02.09.47.dat
 [02:14:02] [Server thread/INFO]: elyxdev tried to swim in lava
 [02:14:02] [Server thread/INFO]: Created new backpack backup file for elyxdev with unique ID travelersbackpack.iron_13.03.2025-02.14.02.dat
+[02:24:46] [Server thread/INFO]: elyxdev lost connection: Disconnected
+[02:24:46] [Server thread/INFO]: elyxdev left the game
+[02:24:53] [Server thread/INFO]: Stopping the server
+[02:24:53] [Server thread/INFO]: Server stopped, resetting cost handler and shared task runner
+[02:24:53] [Server thread/INFO]: Stopping server
+[02:24:53] [Server thread/INFO]: Saving players
+[02:24:53] [Server thread/INFO]: Saving worlds
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[02:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[02:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -14,10 +14,10 @@ oreQuarry = false
 keepOpen = 1
 legacyRednet = false
 frontChest = false
-facing = 0
+facing = 3
 logFolder = "Quarry_Logs"
 autoResume = true
-relxPos = 6
+relxPos = 11
 gpsTimeout = 3
 preciseTotals = false
 logExtension = ""
@@ -35,7 +35,7 @@ exclusions = {
 flatBedrock = false
 layers = 34
 logging = true
-percent = 26
+percent = 28
 allowedItems = {
   0,
   0,
@@ -82,10 +82,10 @@ dumpSlots = {
   false,
   false,
 }
-gotoDest = ""
+gotoDest = "drop off"
 lavaBuffer = 500
 zPos = 11
-yPos = 26
+yPos = 29
 fuelChest = false
 oreQuarryBlacklistName = "oreQuarryBlacklist.txt"
 totals = {
@@ -96,14 +96,14 @@ totals = {
 lavaBucket = false
 chestFull = false
 numResumed = 1
-layersDone = 9
+layersDone = 10
 y = 100
 x = 16
 numDropOffs = 8
 z = 16
 originalFuel = 5221
-mined = 5963
-relzPos = 11
+mined = 6455
+relzPos = 6
 fuelMultiplier = 1
 quadTimeout = 300
 connected = false
@@ -191,11 +191,55 @@ specialSlots = {
   explicit = {},
 }
 compareSlots = {}
-moved = 2215
+moved = 2396
 doCheckFuel = false
 atChest = false
 gpsEnabled = false
-events = {}
+events = {
+  {
+    "goto",
+    6,
+    11,
+    29,
+    2,
+  },
+  {
+    "goto",
+    1,
+    1,
+    29,
+    0,
+  },
+  {
+    "goto(1,1,1, 0)",
+  },
+  {
+    "mine",
+    false,
+    false,
+    true,
+    false,
+  },
+  {
+    "turnTo(0)",
+  },
+  {
+    "drop",
+    "front",
+    false,
+  },
+  {
+    "goto(0,1,1,2,\"drop off\")",
+  },
+  {
+    "goto",
+    1,
+    1,
+    29,
+    2,
+    "drop off",
+  },
+}
 saveFile = "Civil_Quarry_Restore"
 inverted = false
 fuelLevel = 15096
@@ -203,4 +247,4 @@ compareChest = false
 quadEnabled = false
 maxTries = 200
 doCheckFuel = false
-fuelLevel = 12818
+fuelLevel = 12635
