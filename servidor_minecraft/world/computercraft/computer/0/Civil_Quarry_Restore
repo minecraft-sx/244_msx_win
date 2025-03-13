@@ -17,15 +17,15 @@ frontChest = false
 facing = 2
 logFolder = "Quarry_Logs"
 autoResume = true
-relxPos = 12
+relxPos = 17
 gpsTimeout = 3
 preciseTotals = false
 logExtension = ""
-rowCheck = false
+rowCheck = true
 startDown = 0
 rednetEnabled = false
 selectedSlot = 1
-xPos = 5
+xPos = 0
 dropSide = "front"
 exclusions = {
   _ENV = true,
@@ -35,7 +35,7 @@ exclusions = {
 flatBedrock = false
 layers = 34
 logging = true
-percent = 18
+percent = 22
 allowedItems = {
   0,
   0,
@@ -54,7 +54,7 @@ allowedItems = {
   0,
   0,
 }
-isInPath = true
+isInPath = false
 channels = {
   receive = 101,
   send = 1,
@@ -82,28 +82,28 @@ dumpSlots = {
   false,
   false,
 }
-gotoDest = ""
+gotoDest = "drop off"
 lavaBuffer = 500
-zPos = 2
-yPos = 20
+zPos = 1
+yPos = 1
 fuelChest = false
 oreQuarryBlacklistName = "oreQuarryBlacklist.txt"
 totals = {
-  other = 2308,
+  other = 2589,
   fuel = 60,
-  cobble = 1140,
+  cobble = 1592,
 }
 lavaBucket = false
 chestFull = false
 numResumed = 1
-layersDone = 7
+layersDone = 8
 y = 100
 x = 16
-numDropOffs = 5
+numDropOffs = 6
 z = 16
 originalFuel = 5221
-mined = 4014
-relzPos = 2
+mined = 4999
+relzPos = 16
 fuelMultiplier = 1
 quadTimeout = 300
 connected = false
@@ -114,7 +114,11 @@ slot = {
   },
   {
     3,
-    64,
+    1,
+  },
+  {
+    3,
+    36,
   },
   {
     3,
@@ -122,10 +126,22 @@ slot = {
   },
   {
     3,
-    14,
+    63,
   },
   {
-    3,
+    1,
+    64,
+  },
+  {
+    1,
+    64,
+  },
+  {
+    1,
+    64,
+  },
+  {
+    1,
     64,
   },
   {
@@ -133,32 +149,20 @@ slot = {
     64,
   },
   {
-    3,
-    64,
-  },
-  {
-    2,
-    37,
-  },
-  {
-    3,
+    1,
     64,
   },
   {
     3,
+    3,
+  },
+  {
+    3,
+    43,
+  },
+  {
+    1,
     64,
-  },
-  {
-    3,
-    22,
-  },
-  {
-    3,
-    64,
-  },
-  {
-    3,
-    26,
   },
   {
     1,
@@ -166,11 +170,7 @@ slot = {
   },
   {
     3,
-    1,
-  },
-  {
-    3,
-    17,
+    7,
   },
 }
 extraDropItems = false
@@ -191,11 +191,47 @@ specialSlots = {
   explicit = {},
 }
 compareSlots = {}
-moved = 1565
+moved = 1889
 doCheckFuel = false
 atChest = false
 gpsEnabled = false
-events = {}
+events = {
+  {
+    "goto",
+    1,
+    11,
+    23,
+    2,
+  },
+  {
+    "goto",
+    1,
+    1,
+    23,
+    0,
+  },
+  {
+    "goto(1,1,1, 0)",
+  },
+  {
+    "mine",
+    false,
+    false,
+    true,
+    false,
+  },
+  {
+    "turnTo(0)",
+  },
+  {
+    "drop",
+    "front",
+    false,
+  },
+  {
+    "goto(0,1,1,2,\"drop off\")",
+  },
+}
 saveFile = "Civil_Quarry_Restore"
 inverted = false
 fuelLevel = 15096
@@ -203,4 +239,4 @@ compareChest = false
 quadEnabled = false
 maxTries = 200
 doCheckFuel = false
-fuelLevel = 13694
+fuelLevel = 13251
