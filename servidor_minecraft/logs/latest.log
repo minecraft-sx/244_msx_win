@@ -32,3 +32,9 @@
 [01:27:59] [Server thread/INFO]: <--[HERE]
 [01:34:50] [Server thread/WARN]: Rejecting UseItemOnPacket from elyxdev: Location (-568.25, 57.61265313625336, -507.4724533557892) too far away from hit block class_2338{x=-570, y=57, z=-508}.
 [01:38:25] [Server thread/WARN]: Rejecting UseItemOnPacket from elyxdev: Location (-565.25, 54.8669228553772, -497.6878671348095) too far away from hit block class_2338{x=-567, y=54, z=-498}.
+[01:41:33] [Server thread/INFO]: elyxdev is incapacitated!
+[01:41:35] [Server thread/INFO]: elyxdev was doomed to fall by Zombie
+[01:41:35] [Server thread/INFO]: Created new backpack backup file for elyxdev with unique ID travelersbackpack.iron_13.03.2025-01.41.35.dat
+[01:42:18] [Server thread/INFO]: elyxdev is incapacitated!
+[01:42:30] [Server thread/INFO]: elyxdev was shot by Skeleton and bled out
+[01:42:30] [Server thread/INFO]: Created new backpack backup file for elyxdev with unique ID travelersbackpack.iron_13.03.2025-01.42.30.dat
