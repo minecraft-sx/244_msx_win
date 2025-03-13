@@ -614,12 +614,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-03-12 02:09:57 +0000",
+      "minecraft:blaze": "2025-03-12 23:53:39 +0000",
       "minecraft:skeleton": "2025-03-12 02:26:18 +0000",
       "minecraft:ghast": "2025-03-12 23:18:58 +0000",
       "minecraft:hoglin": "2025-03-12 23:19:59 +0000",
       "minecraft:spider": "2025-03-12 02:52:21 +0000",
       "minecraft:piglin_brute": "2025-03-12 23:20:33 +0000",
       "minecraft:creeper": "2025-03-12 02:55:12 +0000",
+      "minecraft:wither_skeleton": "2025-03-12 23:57:20 +0000",
       "minecraft:husk": "2025-03-12 02:29:51 +0000",
       "minecraft:piglin": "2025-03-12 23:04:10 +0000",
       "minecraft:enderman": "2025-03-12 22:57:29 +0000",
@@ -1956,6 +1958,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-12 23:56:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_slab": {
     "criteria": {
       "has_polished_deepslate": "2025-03-12 23:29:52 +0000"
@@ -2006,6 +2014,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-03-12 23:53:43 +0000"
+    },
+    "done": true
+  },
   "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_block": {
     "criteria": {
       "has_item": "2025-03-12 23:20:11 +0000"
@@ -2039,6 +2053,12 @@
   "betterdungeons:small_dungeon": {
     "criteria": {
       "in_better_monster_room": "2025-03-12 22:58:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-12 23:56:09 +0000"
     },
     "done": true
   },
@@ -2228,9 +2248,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-12 23:56:09 +0000"
+    },
+    "done": true
+  },
   "computercraft:recipes/redstone/pocket_computer_advanced": {
     "criteria": {
       "has_apple": "2025-03-12 22:59:01 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blaze": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-12 23:53:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-12 23:53:43 +0000"
     },
     "done": true
   },
@@ -2276,6 +2314,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2025-03-12 23:53:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2025-03-12 23:01:14 +0000"
@@ -2291,6 +2335,12 @@
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-03-12 22:35:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-12 23:53:43 +0000"
     },
     "done": true
   },
