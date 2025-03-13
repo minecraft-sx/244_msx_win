@@ -1,0 +1,206 @@
+doRefuel = false
+dumpCompareItems = false
+fuelTable = {
+  moderate = 200,
+  safe = 1000,
+  loose = 0,
+}
+attacked = 0
+doBackup = true
+startupName = "startup"
+initialCount = 1
+neededFuel = 15472
+oreQuarry = false
+keepOpen = 1
+legacyRednet = false
+frontChest = false
+facing = 2
+logFolder = "Quarry_Logs"
+autoResume = true
+relxPos = 2
+gpsTimeout = 3
+preciseTotals = false
+logExtension = ""
+rowCheck = false
+startDown = 0
+rednetEnabled = false
+selectedSlot = 1
+xPos = 15
+dropSide = "front"
+exclusions = {
+  _ENV = true,
+  shell = true,
+  modem = true,
+}
+flatBedrock = false
+layers = 34
+logging = true
+percent = 7
+allowedItems = {
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+}
+isInPath = true
+channels = {
+  receive = 101,
+  send = 1,
+  confirm = "Turtle Quarry Receiver",
+  message = "Civil's Quarry",
+  fingerprint = "quarry",
+}
+eventInsertionPoint = 1
+oldOreQuarry = false
+dumpSlots = {
+  true,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+}
+gotoDest = ""
+lavaBuffer = 500
+zPos = 4
+yPos = 8
+fuelChest = false
+oreQuarryBlacklistName = "oreQuarryBlacklist.txt"
+totals = {
+  other = 663,
+  fuel = 0,
+  cobble = 82,
+}
+lavaBucket = false
+chestFull = false
+numResumed = 1
+layersDone = 3
+y = 100
+x = 16
+numDropOffs = 1
+z = 16
+originalFuel = 5221
+mined = 1050
+relzPos = 4
+fuelMultiplier = 1
+quadTimeout = 300
+connected = false
+slot = {
+  {
+    1,
+    64,
+  },
+  {
+    3,
+    62,
+  },
+  {
+    3,
+    4,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    1,
+    18,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    24,
+  },
+  {
+    3,
+    64,
+  },
+  {
+    3,
+    59,
+  },
+  {
+    3,
+    1,
+  },
+  {
+    3,
+    1,
+  },
+}
+extraDropItems = false
+startY = 0
+careAboutResources = true
+goLeftNotRight = false
+startupRename = "oldStartup.quarry"
+originalDay = 22
+uniqueExtras = 8
+initialTypes = {
+  1,
+}
+enderChest = false
+fuelSafety = "moderate"
+inventoryMax = 16
+excessFuelAmount = inf
+specialSlots = {
+  explicit = {},
+}
+compareSlots = {}
+moved = 563
+doCheckFuel = false
+atChest = false
+gpsEnabled = false
+events = {}
+saveFile = "Civil_Quarry_Restore"
+inverted = false
+fuelLevel = 15096
+compareChest = false
+quadEnabled = false
+maxTries = 200
+doCheckFuel = false
+fuelLevel = 14936

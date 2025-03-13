@@ -3229,5 +3229,17 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/squid": {
+    "criteria": {
+      "has_ink_sac": "2025-03-13 01:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-03-13 01:19:37 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
