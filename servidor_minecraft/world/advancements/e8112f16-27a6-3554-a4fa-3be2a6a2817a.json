@@ -364,6 +364,7 @@
       "minecraft:taiga": "2025-03-29 00:14:45 +0000",
       "minecraft:frozen_river": "2025-03-29 00:11:41 +0000",
       "minecraft:river": "2025-03-29 00:21:13 +0000",
+      "minecraft:dripstone_caves": "2025-03-29 02:04:01 +0000",
       "minecraft:swamp": "2025-03-29 00:14:17 +0000",
       "minecraft:lush_caves": "2025-03-29 00:20:29 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-03-29 00:28:33 +0000"
@@ -378,8 +379,11 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "highland": "2025-03-29 01:58:14 +0000",
       "maple_woods": "2025-03-29 01:08:12 +0000",
       "field": "2025-03-29 00:12:43 +0000",
+      "spider_nest": "2025-03-29 02:05:38 +0000",
+      "dead_forest": "2025-03-29 01:57:39 +0000",
       "snowy_fir_clearing": "2025-03-29 00:12:33 +0000"
     },
     "done": false
@@ -1511,6 +1515,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-03-29 00:34:56 +0000",
+      "minecraft:cave_spider": "2025-03-29 02:05:50 +0000",
       "minecraft:zombie": "2025-03-29 00:58:30 +0000"
     },
     "done": false
@@ -1893,6 +1898,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-03-29 01:59:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_banner": {
     "criteria": {
       "has_green_wool": "2025-03-29 01:44:36 +0000"
@@ -1908,6 +1919,12 @@
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2025-03-29 01:46:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 01:58:54 +0000"
     },
     "done": true
   },
@@ -1941,6 +1958,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 01:58:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 01:58:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
       "lightning_rod_with_villager_no_fire": "2025-03-29 01:41:32 +0000"
@@ -1956,6 +1985,12 @@
   "immersive_armors:recipes/misc/robe": {
     "criteria": {
       "has_item": "2025-03-29 01:44:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-03-29 01:59:33 +0000"
     },
     "done": true
   },
@@ -1977,9 +2012,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 01:58:54 +0000"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_green": {
     "criteria": {
       "has_green_wool": "2025-03-29 01:44:36 +0000"
+    },
+    "done": true
+  },
+  "the_knocker:cant_sleep": {
+    "criteria": {
+      "cant_sleep_0": "2025-03-29 02:14:00 +0000"
     },
     "done": true
   },
@@ -1989,15 +2036,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-03-29 01:59:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 01:58:54 +0000"
+    },
+    "done": true
+  },
   "comforts:hammock_white": {
     "criteria": {
       "has_white_wool": "2025-03-29 01:44:36 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-03-29 01:57:20 +0000"
+    },
+    "done": true
+  },
+  "spore:spore": {
+    "criteria": {
+      "pick_up_scanner": "2025-03-29 02:29:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-03-29 01:44:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 01:58:54 +0000"
     },
     "done": true
   },

@@ -3831,3 +3831,214 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 [29Mar2025 02:00:18.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Acquire Hardware]
 [29Mar2025 02:00:25.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Isn't It Iron Pick]
 [29Mar2025 02:00:31.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Diamonds!]
+[29Mar2025 02:02:56.492] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/44219, l='ServerLevel[world]', x=-124.82, y=76.77, z=291.30] died, message: 'Unemployed has succumbed to the infection'
+[29Mar2025 02:04:24.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> me muerroooo
+[29Mar2025 02:04:27.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> ayudaaa
+[29Mar2025 02:04:35.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> llegue justo donde estabas y vi que te mato
+[29Mar2025 02:04:42.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> jajajaja
+[29Mar2025 02:04:46.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> yo no me acerco por ahi ni por el puta
+[29Mar2025 02:04:48.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> s
+[29Mar2025 02:04:55.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> voy voy
+[29Mar2025 02:05:06.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN was slain by Cave Dweller
+[29Mar2025 02:05:07.344] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/75295, l='ServerLevel[world]', x=-107.70, y=70.06, z=255.41] died, message: 'Unemployed was eaten alive by Inquisitor'
+[29Mar2025 02:05:56.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> corra corra corra
+[29Mar2025 02:06:27.377] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player b4730537-bbff-35e5-b6c2-9ebd5a60d872 timed out
+[29Mar2025 02:06:27.377] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player MEGGUITAN
+[29Mar2025 02:06:27.377] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:06:32.357] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/77452, l='ServerLevel[world]', x=-125.54, y=68.56, z=241.93] died, message: 'Mason has succumbed to the infection'
+[29Mar2025 02:06:37.309] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGGUITAN lost connection: Timed out
+[29Mar2025 02:06:37.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN left the game
+[29Mar2025 02:06:37.309] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGGUITAN
+[29Mar2025 02:06:44.067] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGGUITAN[/100.126.21.9:49682] logged in with entity id 78494 at (-290.82061179866395, 6.0, 168.1981539141812)
+[29Mar2025 02:06:44.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN joined the game
+[29Mar2025 02:06:44.132] [Server thread/INFO] [Jade/]: Syncing config to MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872)
+[29Mar2025 02:06:44.670] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MEGGUITAN (18)
+[29Mar2025 02:06:44.671] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:06:49.443] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:06:50.521] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:06:50.521] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872) successfully connected to voice chat
+[29Mar2025 02:06:57.303] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/77451, l='ServerLevel[world]', x=-126.50, y=68.00, z=249.50] died, message: 'Shepherd forgot Brotkatze was a bioweapon'
+[29Mar2025 02:07:06.604] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player b4730537-bbff-35e5-b6c2-9ebd5a60d872 timed out
+[29Mar2025 02:07:06.604] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player MEGGUITAN
+[29Mar2025 02:07:06.605] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:07:12.410] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/77438, l='ServerLevel[world]', x=-112.93, y=71.50, z=259.50] died, message: 'Fisherman was eaten alive by Brotkatze'
+[29Mar2025 02:07:16.307] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77439, l='ServerLevel[world]', x=-116.07, y=71.50, z=259.50] died, message: 'Unemployed has succumbed to the infection'
+[29Mar2025 02:07:22.455] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77581, l='ServerLevel[world]', x=-111.07, y=70.23, z=259.14] died, message: 'Unemployed was slain by Brotkatze'
+[29Mar2025 02:07:23.458] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/77437, l='ServerLevel[world]', x=-114.34, y=71.50, z=258.93] died, message: 'Fisherman was slain by Brotkatze'
+[29Mar2025 02:07:26.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGGUITAN lost connection: Timed out
+[29Mar2025 02:07:26.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN left the game
+[29Mar2025 02:07:26.065] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGGUITAN
+[29Mar2025 02:07:26.069] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGGUITAN[/100.126.21.9:49972] logged in with entity id 79231 at (-292.96420299394066, 6.0, 166.3003139382829)
+[29Mar2025 02:07:26.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN joined the game
+[29Mar2025 02:07:26.116] [Server thread/INFO] [Jade/]: Syncing config to MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872)
+[29Mar2025 02:07:26.415] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MEGGUITAN (18)
+[29Mar2025 02:07:26.416] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:07:31.463] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:07:31.644] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:07:31.644] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872) successfully connected to voice chat
+[29Mar2025 02:07:41.159] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/77434, l='ServerLevel[world]', x=-124.93, y=74.50, z=259.50] died, message: 'Nitwit forgot Brotkatze was a bioweapon'
+[29Mar2025 02:07:41.160] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/77435, l='ServerLevel[world]', x=-126.27, y=74.50, z=258.93] died, message: 'Fisherman was eaten alive by Brotkatze'
+[29Mar2025 02:07:41.161] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/77436, l='ServerLevel[world]', x=-125.55, y=74.50, z=258.93] died, message: 'Fisherman was eaten alive by Brotkatze'
+[29Mar2025 02:07:43.658] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77433, l='ServerLevel[world]', x=-127.54, y=74.50, z=258.93] died, message: 'Unemployed forgot Brotkatze was a bioweapon'
+[29Mar2025 02:07:43.818] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player b4730537-bbff-35e5-b6c2-9ebd5a60d872 timed out
+[29Mar2025 02:07:43.818] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player MEGGUITAN
+[29Mar2025 02:07:43.819] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:08:00.730] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:08:01.365] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:08:01.365] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872) successfully connected to voice chat
+[29Mar2025 02:08:01.966] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGGUITAN lost connection: Timed out
+[29Mar2025 02:08:01.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN left the game
+[29Mar2025 02:08:01.967] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGGUITAN
+[29Mar2025 02:08:05.811] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGGUITAN[/100.126.21.9:50048] logged in with entity id 80248 at (-292.96420299394066, 6.0, 166.3003139382829)
+[29Mar2025 02:08:05.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN joined the game
+[29Mar2025 02:08:05.874] [Server thread/INFO] [Jade/]: Syncing config to MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872)
+[29Mar2025 02:08:06.404] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MEGGUITAN (18)
+[29Mar2025 02:08:06.405] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:08:10.658] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:08:11.219] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:08:11.219] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872) successfully connected to voice chat
+[29Mar2025 02:08:30.967] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/44171, l='ServerLevel[world]', x=-129.26, y=74.00, z=286.61] died, message: 'Leatherworker was slain by Inquisitor'
+[29Mar2025 02:08:58.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Spore]
+[29Mar2025 02:09:39.425] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player b4730537-bbff-35e5-b6c2-9ebd5a60d872 timed out
+[29Mar2025 02:09:39.425] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player MEGGUITAN
+[29Mar2025 02:09:39.425] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:09:59.959] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGGUITAN lost connection: Timed out
+[29Mar2025 02:09:59.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN left the game
+[29Mar2025 02:09:59.960] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGGUITAN
+[29Mar2025 02:10:05.776] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGGUITAN[/100.126.21.9:50446] logged in with entity id 82323 at (-267.2775346247481, 1.0625, 167.75463229247228)
+[29Mar2025 02:10:05.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN joined the game
+[29Mar2025 02:10:05.819] [Server thread/INFO] [Jade/]: Syncing config to MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872)
+[29Mar2025 02:10:06.077] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MEGGUITAN (18)
+[29Mar2025 02:10:06.077] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:10:07.117] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77446, l='ServerLevel[world]', x=-114.55, y=103.00, z=287.25] died, message: 'Unemployed was eaten alive by Inquisitor'
+[29Mar2025 02:10:07.117] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77445, l='ServerLevel[world]', x=-114.01, y=103.00, z=287.70] died, message: 'Unemployed was eaten alive by Inquisitor'
+[29Mar2025 02:10:09.074] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:10:09.381] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77447, l='ServerLevel[world]', x=-118.50, y=100.50, z=286.07] died, message: 'Unemployed was fungi-fied by Inquisitor'
+[29Mar2025 02:10:10.044] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:10:10.044] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872) successfully connected to voice chat
+[29Mar2025 02:10:29.374] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/44166, l='ServerLevel[world]', x=-158.90, y=68.00, z=254.20] died, message: 'Cleric was slain by Zombie'
+[29Mar2025 02:10:57.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [The Cutest Predator]
+[29Mar2025 02:11:06.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> como subo?
+[29Mar2025 02:11:10.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> c:
+[29Mar2025 02:11:12.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> picas para arriba
+[29Mar2025 02:11:17.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> a bueno
+[29Mar2025 02:11:53.703] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['Technoblade'/84142, l='ServerLevel[world]', x=-205.01, y=46.00, z=-271.27] died: Technoblade was slain by Spider
+[29Mar2025 02:13:14.945] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['Ripley'/86180, l='ServerLevel[world]', x=-130.57, y=68.00, z=-32.08] died: Ripley was slain by Spider
+[29Mar2025 02:13:44.204] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['Ike'/85666, l='ServerLevel[world]', x=-205.94, y=67.88, z=-18.34] died: Ike was slain by Zombie
+[29Mar2025 02:13:52.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was shot by Skeleton
+[29Mar2025 02:15:09.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> no hay nada de carbon en esta hpta cueva o que?
+[29Mar2025 02:16:28.190] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/44215, l='ServerLevel[world]', x=-145.24, y=67.00, z=238.50] died, message: 'Cleric was fungi-fied by Inquisitor'
+[29Mar2025 02:16:48.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by Specter
+[29Mar2025 02:16:49.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was slain by Specter
+[29Mar2025 02:17:47.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 tried to swim in lava
+[29Mar2025 02:17:48.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was eaten alive by Inquisitor
+[29Mar2025 02:18:32.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was eaten alive by Inquisitor
+[29Mar2025 02:18:46.098] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/77586, l='ServerLevel[world]', x=-101.70, y=77.00, z=276.41] died, message: 'Unemployed was slain by Zombie'
+[29Mar2025 02:19:06.751] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['Zero'/87799, l='ServerLevel[world]', x=-120.93, y=-43.94, z=147.50] died: Zero was slain by Skeleton
+[29Mar2025 02:19:08.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> camine por el agua es mas rapido
+[29Mar2025 02:19:13.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 drowned
+[29Mar2025 02:19:52.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was eaten alive by elyxdev
+[29Mar2025 02:20:04.642] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/44218, l='ServerLevel[world]', x=-178.33, y=63.00, z=251.01] died, message: 'Cleric was slain by Specter'
+[29Mar2025 02:20:38.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> nose donde ando xD
+[29Mar2025 02:20:38.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was slain by Grizzly Bear
+[29Mar2025 02:20:51.542] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/44168, l='ServerLevel[world]', x=-171.45, y=64.88, z=251.37] died, message: 'Farmer was slain by Specter'
+[29Mar2025 02:21:10.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was eaten alive by Inquisitor
+[29Mar2025 02:21:14.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN was doomed to fall
+[29Mar2025 02:21:24.159] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['M4Z0'/92593, l='ServerLevel[world]', x=-192.51, y=68.10, z=277.65] died: M4Z0 was slain by M4Z0
+[29Mar2025 02:22:02.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was eaten alive by Brotkatze
+[29Mar2025 02:22:19.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Spore]
+[29Mar2025 02:22:54.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> pasa coords de la otra
+[29Mar2025 02:22:56.686] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[29Mar2025 02:22:56.687] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[29Mar2025 02:22:58.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was fungi-fied by Inquisitor
+[29Mar2025 02:23:06.792] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['M4Z0'/89531, l='ServerLevel[world]', x=-179.50, y=68.00, z=220.48] died: M4Z0 died
+[29Mar2025 02:23:13.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 forgot Inquisitor was a bioweapon
+[29Mar2025 02:23:40.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN tried to swim in lava
+[29Mar2025 02:24:03.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by Inquisitor
+[29Mar2025 02:24:03.743] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/44165, l='ServerLevel[world]', x=-154.92, y=65.00, z=295.37] died, message: 'Leatherworker has succumbed to the infection'
+[29Mar2025 02:24:03.744] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/44192, l='ServerLevel[world]', x=-151.76, y=64.88, z=294.47] died, message: 'Shepherd has succumbed to the infection'
+[29Mar2025 02:24:16.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> tienen antorchas?
+[29Mar2025 02:24:16.452] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['elyxdev'/90424, l='ServerLevel[world]', x=-175.48, y=66.00, z=254.52] died: elyxdev died
+[29Mar2025 02:24:18.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> xaero-waypoint:aldea:A:136:64:363:7:false:0:Internal-overworld-waypoints
+[29Mar2025 02:24:24.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has succumbed to the infection
+[29Mar2025 02:24:39.099] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['elyxdev'/90835, l='ServerLevel[world]', x=-168.12, y=65.50, z=257.95] died: elyxdev died
+[29Mar2025 02:24:40.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN tried to swim in lava
+[29Mar2025 02:24:47.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> no bro esto está imposible
+[29Mar2025 02:24:56.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was eaten alive by elyxdev
+[29Mar2025 02:25:21.845] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/94479, l='ServerLevel[world]', x=204.91, y=63.00, z=355.51] died, message: 'Shepherd was slain by Zombie'
+[29Mar2025 02:25:29.935] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/94484, l='ServerLevel[world]', x=210.72, y=63.00, z=368.99] died, message: 'Leatherworker was slain by Zombie Villager'
+[29Mar2025 02:25:47.062] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/71144, l='ServerLevel[world]', x=45.50, y=65.00, z=-138.68] died, message: 'Slasher was happy to remove Leatherworker limbs'
+[29Mar2025 02:25:47.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev fell from a high place
+[29Mar2025 02:25:55.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN tried to swim in lava
+[29Mar2025 02:26:12.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> tocó empezar mañana cuando todos tengan los mods y to
+[29Mar2025 02:26:14.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> JKAJKAJKAKJAJK
+[29Mar2025 02:26:40.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> ven a la aldea
+[29Mar2025 02:26:47.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> pero la nueva
+[29Mar2025 02:27:05.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> la nueva?
+[29Mar2025 02:27:13.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> xaero-waypoint:aldea:A:136:64:363:7:false:0:Internal-overworld-waypoints
+[29Mar2025 02:27:18.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> la que acabo de mandar
+[29Mar2025 02:27:19.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was eaten alive by Inquisitor
+[29Mar2025 02:27:24.042] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player b4730537-bbff-35e5-b6c2-9ebd5a60d872 timed out
+[29Mar2025 02:27:24.042] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player MEGGUITAN
+[29Mar2025 02:27:24.043] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:27:29.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN was slain by Specter
+[29Mar2025 02:27:34.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> no vayas a la anterior por nada del mundo
+[29Mar2025 02:27:38.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> hay otra?
+[29Mar2025 02:27:39.608] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGGUITAN lost connection: Disconnected
+[29Mar2025 02:27:39.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN left the game
+[29Mar2025 02:27:39.608] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGGUITAN
+[29Mar2025 02:27:43.014] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGGUITAN[/100.126.21.9:52950] logged in with entity id 99707 at (-44.070559706530226, 62.875, 75.69999998807907)
+[29Mar2025 02:27:43.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN joined the game
+[29Mar2025 02:27:43.072] [Server thread/INFO] [Jade/]: Syncing config to MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872)
+[29Mar2025 02:27:43.712] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MEGGUITAN (18)
+[29Mar2025 02:27:43.712] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 02:27:46.694] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:27:47.985] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 02:27:47.985] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872) successfully connected to voice chat
+[29Mar2025 02:28:00.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> no veo ni mierda
+[29Mar2025 02:28:09.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> consigue una antorcha
+[29Mar2025 02:28:25.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> oe yosman te ayudo?
+[29Mar2025 02:28:43.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has reached the goal [Feeling Watched]
+[29Mar2025 02:29:09.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Sweet Dreams]
+[29Mar2025 02:29:14.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> lo logré
+[29Mar2025 02:29:16.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> tJAJAJAJAJAJAJA
+[29Mar2025 02:29:28.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> vaya a la otra
+[29Mar2025 02:29:33.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Spore]
+[29Mar2025 02:29:41.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> voy voy
+[29Mar2025 02:29:51.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN was slain by Specter
+[29Mar2025 02:29:54.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 discovered the floor was lava
+[29Mar2025 02:30:09.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> que es esa mierdaaa
+[29Mar2025 02:30:14.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN was eaten alive by Brotkatze
+[29Mar2025 02:30:17.003] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['Dr_Pilot_MOO'/100802, l='ServerLevel[world]', x=-246.91, y=64.00, z=192.15] died: Dr_Pilot_MOO was slain by Zombie
+[29Mar2025 02:30:23.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by Specter
+[29Mar2025 02:30:46.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN was eaten alive by Brotkatze
+[29Mar2025 02:30:54.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was eaten alive by Brotkatze
+[29Mar2025 02:31:22.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has succumbed to the infection
+[29Mar2025 02:31:38.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> cojo el pico del cofre
+[29Mar2025 02:32:04.447] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/103122, l='ServerLevel[world]', x=172.70, y=63.00, z=443.32] died, message: 'Librarian was slain by Zombie'
+[29Mar2025 02:32:48.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> ay
+[29Mar2025 02:32:56.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> coji las cosas de yosman creo
+[29Mar2025 02:33:00.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> szs creo
+[29Mar2025 02:33:04.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> se las dejo en un cofresito?
+[29Mar2025 02:33:09.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> va
+[29Mar2025 02:33:10.854] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: M4Z0 lost connection: Disconnected
+[29Mar2025 02:33:10.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 left the game
+[29Mar2025 02:33:10.854] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client M4Z0
+[29Mar2025 02:33:16.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> voy a ir a jugar valo
+[29Mar2025 02:33:21.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> te quedas jugando?
+[29Mar2025 02:33:24.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> r
+[29Mar2025 02:33:27.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> sip
+[29Mar2025 02:33:29.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> va
+[29Mar2025 02:33:31.351] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elyxdev lost connection: Disconnected
+[29Mar2025 02:33:31.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev left the game
+[29Mar2025 02:33:31.352] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client elyxdev
+[29Mar2025 02:37:15.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> que gueva yo
+[29Mar2025 02:37:31.286] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['elyxdev'/103660, l='ServerLevel[world]', x=-148.30, y=71.42, z=279.85] died: elyxdev died
+[29Mar2025 02:37:34.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN fell from a high place
+[29Mar2025 02:38:15.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN was slain by Specter
+[29Mar2025 02:38:34.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN was slain by Specter
+[29Mar2025 02:41:03.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN fell from a high place
+[29Mar2025 02:47:22.339] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGGUITAN lost connection: Disconnected
+[29Mar2025 02:47:22.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN left the game
+[29Mar2025 02:47:22.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has succumbed to the infection
+[29Mar2025 02:47:22.342] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGGUITAN
