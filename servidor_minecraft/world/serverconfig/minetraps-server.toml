@@ -70,7 +70,7 @@
 	toxic_spikes_effect_amplifier = 0
 	#Defines how much damage the Quicksand do
 	#Range: 1 ~ 100
-	quicksand_damage = 0
+	quicksand_damage = 1
 	#Defines how big the explosion radius from the Explosive Block is
 	#Range: 1 ~ 100
 	explosive_block_radius = 3
