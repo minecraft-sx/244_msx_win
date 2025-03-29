@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "cabd2470-5f39-3704-b0d2-16f4468f9346",
+    "name": "elyxdev",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
