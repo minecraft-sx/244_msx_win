@@ -234,3 +234,216 @@
 [29Mar2025 00:26:02.956] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client elyxdev
 [29Mar2025 00:29:19.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Alex's Caves]
 [29Mar2025 00:29:26.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Once Upon a Cave]
+[29Mar2025 00:31:50.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Acquire Hardware]
+[29Mar2025 00:32:08.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Isn't It Iron Pick]
+[29Mar2025 00:32:16.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Diamonds!]
+[29Mar2025 00:34:56.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Monster Hunter]
+[29Mar2025 00:36:27.309] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elyxdev[/100.113.222.78:25327] logged in with entity id 23406 at (-130.96594614271174, 67.0, 249.33436640875135)
+[29Mar2025 00:36:27.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev joined the game
+[29Mar2025 00:36:27.380] [Server thread/INFO] [Jade/]: Syncing config to elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346)
+[29Mar2025 00:36:29.698] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of elyxdev (18)
+[29Mar2025 00:36:29.698] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to elyxdev
+[29Mar2025 00:36:40.934] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cabd2470-5f39-3704-b0d2-16f4468f9346
+[29Mar2025 00:36:41.934] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cabd2470-5f39-3704-b0d2-16f4468f9346
+[29Mar2025 00:36:41.935] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346) successfully connected to voice chat
+[29Mar2025 00:36:49.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 withered away whilst fighting Spider Moth Larvae
+[29Mar2025 00:40:58.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 withered away whilst fighting Spider Moth
+[29Mar2025 00:41:07.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> bro hay arañas
+[29Mar2025 00:41:09.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> pero realistas
+[29Mar2025 00:41:12.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> me voy a suicidar
+[29Mar2025 00:42:15.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by elyxdev
+[29Mar2025 00:44:24.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by Man From The Fog
+[29Mar2025 00:44:33.923] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
+	Index: 13
+	Listeners:
+		0: HIGHEST
+		1: ASM: team.creative.playerrevive.server.ReviveEventServer@4010cd80 playerDied(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		2: HIGH
+		3: ASM: class net.threetag.palladiumcore.event.forge.PalladiumCoreEventHandler livingDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		4: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		5: NORMAL
+		6: ASM: class it.hurts.sskirillss.relics.items.relics.ring.BastionRingItem$Events onLivingDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		7: ASM: croissantnova.sanitydim.event.EventHandler@38bb599 onLivingDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		8: ASM: com.github.alexmodguy.alexscaves.server.event.CommonEvents@6998f982 livingDie(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		9: ASM: class net.mcreator.sonsofsins.procedures.WhenEntityDieProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		10: ASM: class net.mcreator.sonsofsins.procedures.WhenEntityDie2Procedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		11: ASM: class com.tiviacz.travelersbackpack.handlers.NeoForgeEventHandler playerDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		12: ASM: class net.mcreator.man.procedures.KilledManProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		13: ASM: class net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		14: ASM: class net.mcreator.theknocker.procedures.KnockerDeathCounterProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		15: ASM: class net.mcreator.theknocker.procedures.DespawnwhenkillProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		16: ASM: class com.Harbinger.Spore.sEvents.Infection onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		17: ASM: class com.Harbinger.Spore.sEvents.HandlerEvents onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		18: ASM: class net.arphex.procedures.EntityDiesProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		19: LOWEST
+		20: ASM: de.maxhenkel.gravestone.corelib.death.DeathEvents@2ee0556e playerDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
+	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.execute(JumpscareDisplayOverlayIngameProcedure.java:96)
+	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.onEntityDeath(JumpscareDisplayOverlayIngameProcedure.java:49)
+	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.__JumpscareDisplayOverlayIngameProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573)
+	at TRANSFORMER/playerrevive@2.0.31/team.creative.playerrevive.server.PlayerReviveServer.kill(PlayerReviveServer.java:89)
+	at TRANSFORMER/playerrevive@2.0.31/team.creative.playerrevive.packet.GiveUpPacket.executeServer(GiveUpPacket.java:20)
+	at TRANSFORMER/creativecore@2.12.31/team.creative.creativecore.common.network.CreativePacket.execute(CreativePacket.java:14)
+	at TRANSFORMER/creativecore@2.12.31/team.creative.creativecore.common.network.CreativeNetwork.lambda$registerType$2(CreativeNetwork.java:57)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[29Mar2025 00:44:33.925] [Server thread/ERROR] [creativecore/]: Executing a packet ran into an exception
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
+	at net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.execute(JumpscareDisplayOverlayIngameProcedure.java:96) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23228!/:?]
+	at net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.onEntityDeath(JumpscareDisplayOverlayIngameProcedure.java:49) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23228!/:?]
+	at net.mcreator.man.procedures.__JumpscareDisplayOverlayIngameProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23228!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303) ~[forge-1.20.1-47.3.7-universal.jar%23254!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at team.creative.playerrevive.server.PlayerReviveServer.kill(PlayerReviveServer.java:89) ~[PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar%23217!/:2.0.31]
+	at team.creative.playerrevive.packet.GiveUpPacket.executeServer(GiveUpPacket.java:20) ~[PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar%23217!/:2.0.31]
+	at team.creative.creativecore.common.network.CreativePacket.execute(CreativePacket.java:14) ~[CreativeCore_FORGE_v2.12.31_mc1.20.1.jar%23192!/:2.12.31]
+	at team.creative.creativecore.common.network.CreativeNetwork.lambda$registerType$2(CreativeNetwork.java:57) ~[CreativeCore_FORGE_v2.12.31_mc1.20.1.jar%23192!/:2.12.31]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[29Mar2025 00:44:33.926] [Server thread/ERROR] [creativecore/CATCHING]: Catching
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
+	at net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.execute(JumpscareDisplayOverlayIngameProcedure.java:96) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23228!/:?]
+	at net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.onEntityDeath(JumpscareDisplayOverlayIngameProcedure.java:49) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23228!/:?]
+	at net.mcreator.man.procedures.__JumpscareDisplayOverlayIngameProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23228!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303) ~[forge-1.20.1-47.3.7-universal.jar%23254!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at team.creative.playerrevive.server.PlayerReviveServer.kill(PlayerReviveServer.java:89) ~[PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar%23217!/:2.0.31]
+	at team.creative.playerrevive.packet.GiveUpPacket.executeServer(GiveUpPacket.java:20) ~[PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar%23217!/:2.0.31]
+	at team.creative.creativecore.common.network.CreativePacket.execute(CreativePacket.java:14) ~[CreativeCore_FORGE_v2.12.31_mc1.20.1.jar%23192!/:2.12.31]
+	at team.creative.creativecore.common.network.CreativeNetwork.lambda$registerType$2(CreativeNetwork.java:57) ~[CreativeCore_FORGE_v2.12.31_mc1.20.1.jar%23192!/:2.12.31]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[29Mar2025 00:44:56.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> donde estas
+[29Mar2025 00:44:59.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> lejos
+[29Mar2025 00:45:40.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> ya sabemos que si escuchamos cosas raras aparece un enano que corre y no mata one hit
+[29Mar2025 00:47:48.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was slain by M4Z0
+[29Mar2025 00:48:11.396] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	Index: 1
+	Listeners:
+		0: HIGH
+		1: ASM: class tschipp.carryon.events.CommonEvents onEntityRightClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		2: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerInteractEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		3: ASM: team.creative.playerrevive.server.ReviveEventServer@4010cd80 playerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		4: NORMAL
+		5: ASM: com.github.alexthe666.alexsmobs.event.ServerEvents@188f7267 onInteractWithEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		6: ASM: com.github.alexmodguy.alexscaves.server.event.CommonEvents@6998f982 playerEntityInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		7: ASM: class net.mcreator.sonsofsins.procedures.NibblerBucketedProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		8: ASM: wayoftime.bloodmagic.util.handler.event.GenericHandler@7077d8b5 onEntityInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		9: ASM: ru.nern.playerladder.PlayerLadder@747c1b0b onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		10: ASM: com.talhanation.smallships.forge.events.PassengerEvents@111777b8 onPlayerInteractWithPassenger(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		11: ASM: class net.arphex.procedures.RightClickEntityProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		12: ASM: wayoftime.bloodmagic.util.handler.event.GenericHandler@7077d8b5 onPlayerClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_36157_(Player.java:975)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[29Mar2025 00:48:11.397] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@46f487ad, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199) ~[carryon-forge-1.20.1-2.1.2.7.jar%23187!/:2.1.2.7]
+	at tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124) ~[carryon-forge-1.20.1-2.1.2.7.jar%23187!/:2.1.2.7]
+	at tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic) ~[carryon-forge-1.20.1-2.1.2.7.jar%23187!/:2.1.2.7]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764) ~[forge-1.20.1-47.3.7-universal.jar%23254!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:975) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[29Mar2025 00:49:34.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by 
