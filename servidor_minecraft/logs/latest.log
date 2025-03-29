@@ -3746,3 +3746,88 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 [29Mar2025 01:18:28.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made elyxdev a server operator
 [29Mar2025 01:19:13.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elyxdev: Gamerule doImmediateRespawn is now set to: true]
 [29Mar2025 01:20:21.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was slain by M4Z0
+[29Mar2025 01:22:15.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by elyxdev
+[29Mar2025 01:23:27.499] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elyxdev lost connection: Disconnected
+[29Mar2025 01:23:27.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev left the game
+[29Mar2025 01:23:27.500] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client elyxdev
+[29Mar2025 01:25:06.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Hot Stuff]
+[29Mar2025 01:25:31.148] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: M4Z0 lost connection: Disconnected
+[29Mar2025 01:25:31.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 left the game
+[29Mar2025 01:25:31.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by Man From The Fog
+[29Mar2025 01:25:31.151] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client M4Z0
+[29Mar2025 01:30:07.794] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elyxdev[/100.113.222.78:26371] logged in with entity id 44139 at (-152.9659582819954, 63.0, 290.39849063602355)
+[29Mar2025 01:30:07.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev joined the game
+[29Mar2025 01:30:07.833] [Server thread/INFO] [Jade/]: Syncing config to elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346)
+[29Mar2025 01:30:10.251] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of elyxdev (18)
+[29Mar2025 01:30:10.252] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to elyxdev
+[29Mar2025 01:30:19.031] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cabd2470-5f39-3704-b0d2-16f4468f9346
+[29Mar2025 01:30:20.035] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cabd2470-5f39-3704-b0d2-16f4468f9346
+[29Mar2025 01:30:20.035] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346) successfully connected to voice chat
+[29Mar2025 01:33:11.905] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: M4Z0[/100.90.178.36:59313] logged in with entity id 45178 at (-179.34225973022345, 67.0, 187.7408666120374)
+[29Mar2025 01:33:11.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 joined the game
+[29Mar2025 01:33:11.959] [Server thread/INFO] [Jade/]: Syncing config to M4Z0 (e8112f16-27a6-3554-a4fa-3be2a6a2817a)
+[29Mar2025 01:33:13.954] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of M4Z0 (18)
+[29Mar2025 01:33:13.955] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to M4Z0
+[29Mar2025 01:33:21.473] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player e8112f16-27a6-3554-a4fa-3be2a6a2817a
+[29Mar2025 01:33:22.459] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player e8112f16-27a6-3554-a4fa-3be2a6a2817a
+[29Mar2025 01:33:22.459] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player M4Z0 (e8112f16-27a6-3554-a4fa-3be2a6a2817a) successfully connected to voice chat
+[29Mar2025 01:33:47.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> me escuchas?
+[29Mar2025 01:34:21.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> BRO
+[29Mar2025 01:34:24.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> AYUDAME
+[29Mar2025 01:37:44.500] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGGUITAN[/100.126.21.9:62525] logged in with entity id 46162 at (0.5, 69.0, 30.5)
+[29Mar2025 01:37:44.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN joined the game
+[29Mar2025 01:37:44.620] [Server thread/INFO] [Jade/]: Syncing config to MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872)
+[29Mar2025 01:37:48.558] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MEGGUITAN (18)
+[29Mar2025 01:37:48.558] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MEGGUITAN
+[29Mar2025 01:38:01.885] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 01:38:03.100] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player b4730537-bbff-35e5-b6c2-9ebd5a60d872
+[29Mar2025 01:38:03.101] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGGUITAN (b4730537-bbff-35e5-b6c2-9ebd5a60d872) successfully connected to voice chat
+[29Mar2025 01:38:19.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> oe al principio da lag
+[29Mar2025 01:38:26.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> ven a estas cordenadas
+[29Mar2025 01:38:31.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> -156 63 287
+[29Mar2025 01:38:32.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> ok
+[29Mar2025 01:38:38.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> deje termino de cargar
+[29Mar2025 01:39:54.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> me muero jueputaa
+[29Mar2025 01:40:49.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has succumbed to the infection
+[29Mar2025 01:40:55.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> chispas
+[29Mar2025 01:41:02.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> rayos y sentellas
+[29Mar2025 01:41:23.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> te ayudo a llegar cuando pueda escapar
+[29Mar2025 01:41:32.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Surge Protector]
+[29Mar2025 01:41:32.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Surge Protector]
+[29Mar2025 01:42:33.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> es una aldea?
+[29Mar2025 01:42:35.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> sisa
+[29Mar2025 01:42:40.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> llegue
+[29Mar2025 01:42:54.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> busca a yosman
+[29Mar2025 01:43:38.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> Hellou
+[29Mar2025 01:43:39.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> De la V configuras el chat de voz
+[29Mar2025 01:43:57.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> me abre es otra cosa
+[29Mar2025 01:44:09.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> malparidooo
+[29Mar2025 01:44:10.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> cambia los controles
+[29Mar2025 01:45:20.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> carbón tenés?
+[29Mar2025 01:45:21.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> necesitas que?
+[29Mar2025 01:45:24.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> nada
+[29Mar2025 01:45:45.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Suit Up]
+[29Mar2025 01:47:06.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> me quieren violar
+[29Mar2025 01:51:50.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Isn't It Iron Pick]
+[29Mar2025 01:51:56.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Stone Age]
+[29Mar2025 01:52:14.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Getting an Upgrade]
+[29Mar2025 01:53:20.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> xaero-waypoint:caid:C:-156:4:235:13:false:0:Internal-overworld-waypoints
+[29Mar2025 01:53:46.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> que significa esa cosa en la cabeza estres?
+[29Mar2025 01:53:52.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> cordura
+[29Mar2025 01:54:03.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> si te baja mucho empiezas a escuchar mierdas y alucinar
+[29Mar2025 01:54:18.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> que heavy
+[29Mar2025 01:54:31.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> que lindoooo
+[29Mar2025 01:54:36.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> me lo quiero llevar jajaja
+[29Mar2025 01:55:46.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Monster Hunter]
+[29Mar2025 01:56:18.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> ??
+[29Mar2025 01:56:24.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> no sabemos que es
+[29Mar2025 01:56:31.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> ojo pues por ahi que te violan
+[29Mar2025 01:56:46.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> aaa
+[29Mar2025 01:56:48.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <MEGGUITAN> que es esoo
+[29Mar2025 01:57:34.888] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: M4Z0 moved too quickly! 9.602720400191004,-1.0,3.330878377981719
+[29Mar2025 01:57:34.900] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3621ms or 72 ticks behind
+[29Mar2025 01:59:38.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Alex's Caves]
+[29Mar2025 01:59:58.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [It Belongs in a Museum]
+[29Mar2025 02:00:18.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Acquire Hardware]
+[29Mar2025 02:00:25.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Isn't It Iron Pick]
+[29Mar2025 02:00:31.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGGUITAN has made the advancement [Diamonds!]
