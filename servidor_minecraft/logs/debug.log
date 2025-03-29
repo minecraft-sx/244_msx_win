@@ -4771,3 +4771,50 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [29Mar2025 00:08:37.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Stone Age]
 [29Mar2025 00:08:41.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Getting an Upgrade]
 [29Mar2025 00:09:37.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Getting an Upgrade]
+[29Mar2025 00:10:25.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> no
+[29Mar2025 00:10:38.439] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['Bowser'/4857, l='ServerLevel[world]', x=10.45, y=43.00, z=153.18] died: Bowser was slain by Skeleton
+[29Mar2025 00:11:14.642] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Mar2025 00:11:14.656] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[29Mar2025 00:12:09.901] [Worker-Main-3/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:village/fortified/start_castle
+[29Mar2025 00:12:29.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> estoy paranoico
+[29Mar2025 00:12:32.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> x2
+[29Mar2025 00:12:38.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> escucho creepers y gente caminando
+[29Mar2025 00:12:56.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> a mi se me oscurecio todo y hubo un rayo
+[29Mar2025 00:12:56.965] [Worker-Main-3/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:regular/glacial/interior216
+[29Mar2025 00:13:01.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> jueputa
+[29Mar2025 00:13:06.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> xaero-waypoint:Basesita de mierda:B:15:59:28:12:false:0:Internal-overworld-waypoints
+[29Mar2025 00:13:06.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> la noche esta muy oscura
+[29Mar2025 00:13:16.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> córrele
+[29Mar2025 00:14:50.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> mandame cords
+[29Mar2025 00:14:53.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> me perdi
+[29Mar2025 00:14:59.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> ahí te pasé el waypoint
+[29Mar2025 00:15:01.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> pero encontre fogatas
+[29Mar2025 00:15:03.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> esperame
+[29Mar2025 00:15:04.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> xaero-waypoint:Basesita de mierda:B:15:59:28:12:false:0:Internal-overworld-waypoints
+[29Mar2025 00:15:14.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> 14, 34
+[29Mar2025 00:15:19.590] [Worker-Main-3/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/common/villager/swamp
+[29Mar2025 00:15:37.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <M4Z0> porque hay tantos zombies
+[29Mar2025 00:15:45.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> ni idea
+[29Mar2025 00:15:55.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 forgot Infected Villager was a bioweapon
+[29Mar2025 00:16:08.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has reached the goal [Feeling Watched]
+[29Mar2025 00:16:14.639] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Mar2025 00:16:14.650] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[29Mar2025 00:16:32.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> espera
+[29Mar2025 00:16:38.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> sí te escucho
+[29Mar2025 00:19:09.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Monster Hunter]
+[29Mar2025 00:21:14.646] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Mar2025 00:21:14.656] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[29Mar2025 00:21:21.765] [Server thread/DEBUG] [mixin/]: Mixing PiglinAiMixin from relics.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[29Mar2025 00:21:21.765] [Server thread/DEBUG] [mixin/]: relics.mixins.json:PiglinAiMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[29Mar2025 00:21:21.768] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[29Mar2025 00:23:56.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 was slain by elyxdev
+[29Mar2025 00:25:42.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> bro ya vengo
+[29Mar2025 00:25:47.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <elyxdev> me voy a instalar un mod para grabar
+[29Mar2025 00:26:02.953] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elyxdev lost connection: Disconnected
+[29Mar2025 00:26:02.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev left the game
+[29Mar2025 00:26:02.955] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of elyxdev
+[29Mar2025 00:26:02.956] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client elyxdev
+[29Mar2025 00:26:14.624] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Mar2025 00:26:14.633] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[29Mar2025 00:29:19.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Alex's Caves]
+[29Mar2025 00:29:26.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M4Z0 has made the advancement [Once Upon a Cave]
